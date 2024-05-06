@@ -1,7 +1,6 @@
 /*Entête de la page et ses sous-divs*/
 #entete{
     grid-row: 1;
-    height: 7vh;
     width: 96vw;
     display: grid;
     grid-template-columns: 33% 67%;
