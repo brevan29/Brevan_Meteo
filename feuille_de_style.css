@@ -1,0 +1,110 @@
+@charset "utf-8";
+html{
+    width: 96vw;
+    display: grid
+}
+body{
+    display: grid;
+    grid-template-rows: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+}
+a{
+    text-decoration: none;
+}
+div{
+    display: grid;
+    border: 1px solid;
+    text-align: center;
+}
+h2,h3{
+    grid-row: 1;
+    font-size: large;
+}
+h3{grid-row:2;}
+p{
+    font-size: medium;
+    color:darkblue;
+    margin: 0px;
+}
+img{
+    display: block;
+    max-height : 90%;
+    max-width : 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+footer{
+    text-align: center;
+    font-size:xx-small
+}
+
+nav ul{
+    list-style-type: none;
+  }
+  
+  nav ul li{
+    float: left;
+    width: 33%;
+    text-align: center;
+    position: relative;
+  }
+  
+  nav a{
+    display: block;
+    text-decoration: none;
+    color: #0789b0;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+  }
+  
+  nav a:hover{
+    border-bottom: 2px solid #0789b0;
+  } 
+/*Classes de text tels Span et P*/
+.titre{
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: bold;
+    color: rgb(1, 1, 110);
+}
+.article{
+    font-size: 8px;
+}
+.clic, .source{
+    font-size: 6px;
+    color: black
+}
+/*Bouttons*/
+.btn,.btn2 {
+    text-decoration: none;
+    padding: 10px;
+    font-family: arial;
+    font-size: 2em;
+    color: #FFFFFF;
+    background-color: #023c71;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border: 4px solid #FFFFFF;
+    box-shadow: 3px 3px 12px #444444;
+    -webkit-box-shadow: 3px 3px 12px #444444;
+    -moz-box-shadow: 3px 3px 12px #444444;
+    width: 50px;
+    height: 55px;
+    }
+    
+    
+    .btn:hover, .btn2:hover {
+    padding: 10px;
+    border: 4px solid #3b6381;
+    box-shadow: 1px 1px 4px #777777;
+    -webkit-box-shadow: 1px 1px 4px #777777;
+    -moz-box-shadow: 1px 1px 4px #777777;
+    }
+
+.btn2,.btn2:hover{
+    width: 150px;
+}

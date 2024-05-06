@@ -1,0 +1,188 @@
+/*Entête de la page et ses sous-divs*/
+#entete{
+    grid-row: 1;
+    height: 7vh;
+    width: 96vw;
+    display: grid;
+    grid-template-columns: 33% 67%;
+    grid-template-rows: auto;
+    box-shadow: 0px 0px 11px -12px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 11px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 11px -12px rgba(0,0,0,0.75);
+    margin-bottom: 5px;
+}
+#titre{
+    grid-row-start: 1;
+    grid-column: 1;
+    text-align: center;
+}
+.meteo_du_jour{
+    grid-row: 1;
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    grid-template-rows: auto;
+    
+}
+#lieu{
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    font-size:x-large
+}
+#matin{
+    grid-column: 1;
+}
+#apm{
+    grid-column: 2;
+}
+#soir{
+    grid-column: 3;
+}
+.ajd{
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 34% 66%;
+    border: 0% solid;
+    margin: 0%;
+}
+.ico-mto{
+    grid-column: 1;
+    border: 0px solid;
+    margin: 0%;
+    width: 10vw;
+}
+.txt-mto{
+    grid-column: 2;
+    border: 0px solid;
+    margin: 0%;
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 15px;
+    vertical-align: baseline;
+}
+.img-ajd{
+    max-width: 6vw;
+    max-height:10vh
+}
+/*Partie à propos des prévisions que j'aurai réalisé*/
+#previsions{
+    grid-row: 2;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 10px 10px 55px -12px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 55px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 55px -12px rgba(0,0,0,0.75);
+    grid-template-rows: auto;
+}
+/*Div concernant la barre de navigation permettant de changer de mode de carte.*/
+#barre_de_navigation{
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: span 3;
+}
+#previentantquetelle{
+    display: grid;
+    width: 96vw;
+    grid-template-columns: 33% 34% 33%;
+    grid-template-rows: auto;
+    
+}
+#lieu_previ{
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    display: grid;
+}
+#dmat{
+    grid-row: 3;
+    grid-column: 1;
+    justify-content: center;
+    display: grid;
+}
+#dapm{
+    grid-row: 3;
+    grid-column: 2;
+    justify-content: center;
+    display: grid;
+}
+#dsoi{
+    grid-row: 3;
+    grid-column: 3;
+    justify-content: center;
+    display: grid;
+}
+#admat{
+    grid-row: 4;
+    grid-column: 1;
+    justify-content: center;
+    display: grid;
+}
+#adapm{
+    grid-row: 4;
+    grid-column: 2;
+    justify-content: center;
+    display: grid;
+}
+#adsoi{
+    grid-row: 4;
+    grid-column: 3;
+    justify-content: center;
+    display: grid;
+}
+#carte{
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    justify-content: center;
+}
+/*Partie visant à remplir le reste de la page*/
+#remplir_la_page{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-rows: auto*5;
+}
+#pagesup1{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 75px;
+    margin-right: 75px;
+    box-shadow: 0px 0px 11px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 11px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 11px -2px rgba(0,0,0,0.75);
+    padding: 10px;
+    border: 0px;
+}
+#image1{
+    padding-right: 5px;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#texte1{
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#h1{
+    height:10vh;
+}
+#pagesup1{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: auto;
+}
+#image1{
+    grid-row: 1;
+    grid-column: 1;
+    border-right: 1px solid;
+    display: grid;
+}
+#texte1{
+    grid-row: 1;
+    grid-column: 2;
+    padding-left: 1px solid;
+}

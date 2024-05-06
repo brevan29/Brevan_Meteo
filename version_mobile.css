@@ -1,0 +1,161 @@
+@media (min-width: 320px){
+        /*Entête de la page et ses sous-divs*/
+    #entete{
+        grid-row: 1;
+        height: 10vw;
+        width: 96vw;
+        display: grid;
+        grid-template-columns: 33% 67%;
+        box-shadow: 0px 0px 11px -12px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 0px 0px 11px -12px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 11px -12px rgba(0,0,0,0.75);
+        margin-bottom: 5px;
+    }
+    #titre{
+        grid-row-start: 1;
+        grid-column: 1;
+        text-align: center;
+    }
+    .meteo_du_jour{
+        grid-row: 1;
+        grid-column: 2;
+        display: grid;
+        grid-template-columns: 33% 34% 33%;
+        grid-template-rows: auto;
+        
+    }
+    #lieu{
+        grid-row: 1;
+        grid-column-start: 1;
+        grid-column-end: span 3;
+    }
+    #matin{
+        grid-row: 2;
+        grid-column: 1;
+        display: grid;
+        grid-template-columns: 33.5% 66,5%;
+    }
+    #apm{
+        grid-row: 2;
+        grid-column: 2;
+        display: grid;
+        grid-template-columns: 33.5% 66,5%;
+    }
+    #soir{
+        grid-row: 2;
+        grid-column: 3;
+        display: grid;
+        grid-template-columns: 33% 67%;
+    }
+    .icone{
+        grid-column: 1;
+        border: 0px;
+        margin: 0%;
+    }
+    .detail{
+        grid-column: 2;
+        border: 0px;
+        text-align: right;
+        padding-right: 1%;
+        justify-content: center;
+    }
+    .mto_entete{
+        max-height : 10vw;
+        max-width : 10vh;
+        margin: 0%;
+    }
+    /*Partie à propos des prévisions que j'aurai réalisé*/
+    #previsions{
+        grid-row: 2;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        box-shadow: 10px 10px 55px -12px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 10px 10px 55px -12px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 55px -12px rgba(0,0,0,0.75);
+        grid-template-rows: auto;
+    }
+    /*Div concernant la barre de navigation permettant de changer de mode de carte.*/
+    #barre_de_navigation{
+        grid-row: 1;
+        grid-column-start: 1;
+        grid-column-end: span 3;
+    }
+    #previentantquetelle{
+        display: grid;
+        grid-template-columns: 33% 34% 33%;
+        grid-template-rows: auto*3;
+    }
+    #lieu_previ{
+        grid-row: 2;
+        grid-column-start: 1;
+        grid-column-end: span 3;
+    }
+    #dmat{
+        grid-row: 3;
+        grid-column: 1;
+    }
+    #dapm{
+        grid-row: 3;
+        grid-column: 2;
+    }
+    #dsoi{
+        grid-row: 3;
+        grid-column: 3;
+    }
+    #admat{grid-row: 4;
+        grid-column: 1;
+    }
+    #adapm{
+        grid-row: 4;
+        grid-column: 2;
+    }
+    #adsoi{
+        grid-row: 4;
+        grid-column: 3;
+    }
+    #carte{
+        grid-row: 1;
+        grid-column-start: 1;
+        grid-column-end: span 3;
+    }
+    /*Partie visant à remplir le reste de la page*/
+    #remplir_la_page{
+        margin-top: 5px;
+        margin-bottom: 10px;
+        display: grid;
+        grid-template-rows: auto*5;
+    }
+    #pagesup1{
+        margin-top: 50px;
+        margin-bottom: 10px;
+        margin-left: 150px;
+        margin-right: 150px;
+        box-shadow: 0px 0px 11px -2px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 0px 0px 11px -2px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 11px -2px rgba(0,0,0,0.75);
+        padding: 10px;
+        border: 0px;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+    }
+    #image1{
+        padding-right: 5px;
+        border: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-row: 1;
+        grid-column: 1;
+        border-bottom: 1px solid;
+    }
+    #texte1{
+        border: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-row: 2;
+        grid-column: 1;
+        border-top: 1px solid;
+    }
+}
