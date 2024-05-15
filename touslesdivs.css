@@ -81,7 +81,6 @@
 }
 #previentantquetelle{
     display: grid;
-    width: 96vw;
     grid-template-columns: 33% 34% 33%;
     grid-template-rows: auto;
     
