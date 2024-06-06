@@ -219,7 +219,7 @@
     padding-left: 1px solid;
 }
 
-@media  screen and (max-width: 500px) {
+@media  screen and (max-width: 600px) {
     .meteo_du_jour{
         grid-row: 2;
         grid-column: 1;

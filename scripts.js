@@ -7,7 +7,7 @@ function changervisibilite(elm){
         Actif=AChanger;
 }
 
-if (window.innerWidth<=500){
+if (window.innerWidth<=600){
     var image = (window.innerWidth-30)/3;
     document.getElementById('Quimper').style.height=(image*3+63).toString()+'px';
     document.getElementById('BZH').style.height=(image*3+63).toString()+'px';
