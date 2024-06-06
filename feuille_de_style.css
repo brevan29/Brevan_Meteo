@@ -1,5 +1,6 @@
 @charset "utf-8";
 html{
+    padding: 2px 5px 2px 5px;
     display: grid
 }
 body{
@@ -7,9 +8,11 @@ body{
     grid-template-rows: auto;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: small;
+    overflow-x: hidden;
 }
 a{
     text-decoration: none;
+    color: darkcyan;
 }
 div{
     display: grid;
@@ -24,7 +27,7 @@ h3{grid-row:2;}
 p{
     font-size: medium;
     color:darkblue;
-    margin: 0px;
+    margin: 0px 0px 10px 0px;
 }
 img{
     display: block;

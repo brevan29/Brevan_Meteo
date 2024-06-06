@@ -4,13 +4,13 @@
     <link rel="stylesheet" href="./feuille_de_style.css">
     <link rel="stylesheet" href="./touslesdivs.css">
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2698/2698194.png" />
-    <script src="./scripts.js"></script>
+   
     <meta name=" description" content= "Essai de page web ayant pour objectif de donner la météo et à terme de donner aussi l'horoscope, celui du gorafi" >
 </head>
 <body>
     <section id="entete">
         <div id="titre">
-            <h1>Brévan Météo-land</h1>
+            <h1><a href="https://brevan29.github.io/Brevan_Meteo/index.html" target="_blank">Brévan Météo-land</a></h1>
             la meilleure météo qui puisse exister<br>
         </div>
         <div class="meteo_du_jour">
@@ -24,7 +24,7 @@
                 <div class="txt-mto"><p>Éclaircies<br>14°C<br>Légère Brise</p></div>
             </div>
             <div id="soir" class="ajd">
-                <div class="ico-mto"><img src="https://cdn-icons-png.flaticon.com/512/2698/2698194.png" alt="soleil" class="imj-ajd"></div>
+                <div class="ico-mto"><element id="Soleil"><img src="Images/Soleil.svg"></div>
                 <div class="txt-mto"><p>Ensoleillé<br>12°C<br>Pas de vent</p></div>
             </div>
         </div>
@@ -33,65 +33,68 @@
         <div id="barre_de_navigation">
             <nav>
                 <ul>
-                    <li><button class="btn2" name="Quimper" type="button">Quimper</button></li>
-                    <li><button class="btn2" name="Bretagne" type="button">Bretagne</button></li>
-                    <li><button class="btn2" name="France" type="button">France</button></li>
+                    <li><button class="btn2" name="Quimper" type="button" onclick="changervisibilite('Quimper')">Quimper</button></li>
+                    <li><button class="btn2" name="Bretagne" type="button" onclick="changervisibilite('BZH')">Bretagne</button></li>
+                    <li><button class="btn2" name="France" type="button" onclick="changervisibilite('France')">France</button></li>
                 </ul>
             </nav>
-            <h3>barre_de_navigation (celle d'Arnaud)</h3>
         </div>
-        <div id="previentantquetelle">
+        <div id="Quimper" style="visibility: visible;">
             <div id="lieu_previ">
-                <h2>Prévisions météo pour Quimper (29000) ou cartes</h2>
+                <h2>Prévisions météo pour Quimper (29000)</h2>
             </div>
             <div id="dmat">
                 <br>
-                    <img src="https://cdn-icons-png.flaticon.com/128/1163/1163661.png" href="ciel voilé" width="100px" height="100px">
-                <br>
-                <button class="btn" type="button" onclick="retourDmat('texte')">+</button>
+                <brevan id="soleil"><img src="Images/Soleil.svg"></brevan>
             </div>
             <div id="dapm">
                 <br>
-                    <img src="https://cdn-icons-png.flaticon.com/512/2698/2698194.png", href="soleil" width="100px" height="100px">
-                <br>
-                <button class="btn" type="button" onclick="retourDapm('texte')">+</button>
+                <element id="soleil"><img src="Images/Soleil.svg"></element>
             </div>
             <div id="dsoi">
                 <br>
-                <img src="https://cdn-icons-png.flaticon.com/512/2698/2698194.png", href="soleil" width="100px" height="100px">
-                <br>
-                <button class="btn" type="button" onclick="retourDsoi('texte')">+</button>
+                <element id="soleil"><img src="Images/Soleil.svg"></element>
             </div>
             <div id="admat">
                 <br>
                 <img src="https://cdn-icons-png.flaticon.com/128/1163/1163661.png" href="éclaircies" width="100px" height="100px">
-                <br>
-                <button class="btn" type="button" onclick="retourADmat('texte')">+</button>
             </div>
             <div id="adapm">
                 <br>
                     <img src="https://cdn-icons-png.flaticon.com/128/1163/1163661.png" href="éclaircies" width="100px" height="100px">
-                <br>
-                <button class="btn" type="button" onclick="retourADapm('texte')">+</button>
             </div>
             <div id="adsoi">
                 <br>
                 <img src="https://cdn-icons-png.flaticon.com/128/3262/3262912.png" href="pluie" width="100px" height="100px">
+            </div>
+            <div id="ddmat">
                 <br>
-                <button class="btn" type="button" onclick="retourADsoi('texte')">+</button>
+                <brevan id="soleil"><img src="Images/Soleil.svg"></brevan>
+            </div>
+            <div id="ddapm">
+                <br>
+                <element id="soleil"><img src="Images/Soleil.svg"></element>
+            </div>
+            <div id="ddsoi">
+                <br>
+                <element id="soleil"><img src="Images/Soleil.svg"></element>
             </div>
         </div>
-        <div id="lieu_previ">
-            <h2>Prévisions météo pour La Bretagne ou cartes</h2>
+        <div id="BZH" style="visibility: hidden;">
+            <div id="lieu_previ">
+                <h2>Prévisions météo pour La Bretagne</h2>
+            </div>
+            <div class="carte">
+                <img class="grosse_carte" id="Carte_de_référence" src="https://neige.meteociel.fr/satellite/anim_ir_color.gif">
+            </div>
         </div>
-        <div id="carte">
-            <img src="https://neige.meteociel.fr/satellite/anim_ir.gif">
-        </div>
-        <div id="lieu_previ">
-            <h2>Prévisions météo pour La france ou cartes</h2>
-        </div>
-        <div id="carte">
-            <img src="https://www.meteociel.fr/cartes_obs/pression.png">
+        <div id="France" style="visibility: hidden;">
+            <div id="lieu_previ">
+                <h2>Prévisions météo pour La France</h2>
+            </div>
+            <div class="carte">
+                <img class="grosse_carte" src="https://www.meteociel.fr/cartes_obs/pression.png">
+            </div>
         </div>
     </section>
 
@@ -109,6 +112,7 @@
             </div>
         </div>
     </section>
-    <footer>© Brévan 2024 - Tous droits réservés, s'il y en a<br><br>Version 0.2<br><br>contact : brevanhamel@outlook.fr</footer>
+    <script src="./scripts.js"></script>
+    <footer>© Brévan 2024 - Tous droits réservés, s'il y en a<br><br> contact : brevanhamel@outlook.fr</footer>
 </body>
 </html>
