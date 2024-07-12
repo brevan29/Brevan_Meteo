@@ -1,13 +1,23 @@
 /*Entête de la page et ses sous-divs*/
 #entete{
+    position: fixed;
+    top: 0;
     grid-row: 1;
+    width: 98vw;
+    z-index: 10;
     display: grid;
-    grid-template-columns: 33% 67%;
+    background-color: #ffb7f3;
+    grid-template-columns: 190px auto;
     grid-template-rows: auto;
     box-shadow: 0px 0px 11px -12px rgba(0,0,0,0.75);
     -webkit-box-shadow: 0px 0px 11px -12px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 11px -12px rgba(0,0,0,0.75);
-    margin-bottom: 5px;
+}
+#logo{
+    max-height : 188px;
+    max-width : 188px;
+    width: 188px;
+    height: 188px;
 }
 #titre{
     grid-row-start: 1;
@@ -18,15 +28,14 @@
     grid-row: 1;
     grid-column: 2;
     display: grid;
-    grid-template-columns: 33% 34% 33%;
+    grid-template-columns: auto auto auto;
     grid-template-rows: auto;
-    
 }
 #lieu{
     grid-row: 1;
     grid-column-start: 1;
     grid-column-end: span 3;
-    font-size:x-large
+    font-size:x-large;
 }
 #matin{
     grid-column: 1;
@@ -41,7 +50,6 @@
     grid-row: 2;
     display: grid;
     grid-template-columns: 34% 66%;
-    border: 0% solid;
     margin: 0%;
 }
 .ico-mto{
@@ -63,6 +71,17 @@
     max-width: 150px;
     max-height: 150px;
 }
+#entete.active{
+    grid-template-columns: auto auto;
+    .ajd .ico-mto img{
+        max-width: 100px;
+        max-height: 100px;
+    }
+    #logo{
+        width: 136px;
+        height: 136px;
+    }
+}
 /*Partie à propos des prévisions que j'aurai réalisé*/
 #previsions{
     grid-row: 2;
@@ -72,6 +91,7 @@
     -webkit-box-shadow: 10px 10px 55px -12px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 55px -12px rgba(0,0,0,0.75);
     display: grid;
+    width: 98vw;
     grid-template-rows: auto;
     grid-template-columns: 100%;
 }
@@ -170,6 +190,7 @@
 }
 /*Partie visant à remplir le reste de la page*/
 #remplir_la_page{
+    grid-row: 3;
     margin-top: 5px;
     margin-bottom: 10px;
     display: grid;
@@ -219,7 +240,7 @@
     padding-left: 1px solid;
 }
 
-@media  screen and (orientation: portrait) {
+@media  screen and (max-width: 500px) {
     .meteo_du_jour{
         grid-row: 2;
         grid-column: 1;
@@ -229,17 +250,17 @@
     }
     .ico-mto{
         grid-row: 1;
-        grid-column: span 2;
         border: 0px solid;
-        padding-left: 35px;
+        margin: 0%;
         width: 10vw;
     }
     .txt-mto{
         grid-row: 2;
-        grid-column: span 2;
         border: 0px solid;
         margin: 0%;
-        text-align: center;        
+        text-align: center;
+        padding-right: 15px;
+        padding-top: 15px;
         vertical-align: baseline;
     }
 }
