@@ -11,7 +11,7 @@ function fixNav(){
     if(window.scrollY > nav.offsetHeight + 25){
         nav.classList.add('active')
         titre.style.width='136px'
-        mto.style.width=(nav.offsetWidth-136).toString()+'px'
+        mto.style.width=(nav.offsetWidth-140).toString()+'px'
         // matin.style.width=((nav.offsetWidth-136)/3).toString()+'px'
         // apm.style.width=((nav.offsetWidth-136)/3).toString()+'px'
         // soir.style.width=(mto.offsetWidth-matin.offsetWidth-apm.offsetWidth).toString()+'px'
@@ -19,7 +19,7 @@ function fixNav(){
     else{
         nav.classList.remove('active')
         titre.style.width='188px'
-        mto.style.width=(nav.offsetWidth-190).toString()+'px'
+        mto.style.width=(nav.offsetWidth-192).toString()+'px'
         // matin.style.width=((nav.offsetWidth-136)/3).toString()+'px'
         // apm.style.width=((nav.offsetWidth-136)/3).toString()+'px'
         // soir.style.width=(mto.offsetWidth-matin.offsetWidth-apm.offsetWidth).toString()+'px'
