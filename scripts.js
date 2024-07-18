@@ -2,27 +2,28 @@ var Actif=document.getElementById('Quimper')
 function changervisibilite(elm){
     const AChanger=document.getElementById(elm)
     if (AChanger.style.visibility=='hidden'){
-        AChanger.style.visibility='visible';}
         Actif.style.visibility='hidden';
+        AChanger.style.visibility='visible';}
         Actif=AChanger;
 }
-
+var Actif2=document.getElementById('Horoscope')
+function changervisibiliteTenplus(elm){
+    const AChanger=document.getElementById(elm)
+    if (AChanger.style.visibility=='hidden'){
+        AChanger.style.visibility='visible';}
+        Actif2.style.visibility='hidden';
+        Actif2=AChanger;
+}
 function fixNav(){
     if(window.scrollY > nav.offsetHeight + 25){
         nav.classList.add('active')
         titre.style.width='136px'
         mto.style.width=(nav.offsetWidth-140).toString()+'px'
-        // matin.style.width=((nav.offsetWidth-136)/3).toString()+'px'
-        // apm.style.width=((nav.offsetWidth-136)/3).toString()+'px'
-        // soir.style.width=(mto.offsetWidth-matin.offsetWidth-apm.offsetWidth).toString()+'px'
     }
     else{
         nav.classList.remove('active')
         titre.style.width='188px'
         mto.style.width=(nav.offsetWidth-192).toString()+'px'
-        // matin.style.width=((nav.offsetWidth-136)/3).toString()+'px'
-        // apm.style.width=((nav.offsetWidth-136)/3).toString()+'px'
-        // soir.style.width=(mto.offsetWidth-matin.offsetWidth-apm.offsetWidth).toString()+'px'
     }
 }
 

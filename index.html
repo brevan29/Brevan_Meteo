@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <head>
     <title>Brévan Météo 3.0</title>
+    <link rel="stylesheet" href="https://unpkg.com/xp.css" />
     <link rel="stylesheet" href="./feuille_de_style.css">
     <link rel="stylesheet" href="./touslesdivs.css">
-    <link rel="icon" href="./Images/logo.ico" />
-   
+    <link rel="icon" href="Images/icon-1.ico" />
     <meta name=" description" content= "Essai de page web ayant pour objectif de donner la météo et à terme de donner aussi l'horoscope, celui du gorafi" >
 </head>
 <body>
     <section id="entete">
         <div id="titre">
-            <img id='logo' src="Images/logo.jpg">
+            <img id='logo' src="Images/logo.png">
         </div>
         <div class="meteo_du_jour">
             <div id="lieu">Météo du jour pour Quimper</div>
@@ -32,9 +32,9 @@
         <div id="barre_de_navigation">
             <nav>
                 <ul>
-                    <li><button class="btn2" name="Quimper" type="button" onclick="changervisibilite('Quimper')">Quimper</button></li>
-                    <li><button class="btn2" name="Bretagne" type="button" onclick="changervisibilite('BZH')">Bretagne</button></li>
-                    <li><button class="btn2" name="France" type="button" onclick="changervisibilite('France')">France</button></li>
+                    <li><button name="Quimper" type="button" onclick="changervisibilite('Quimper')">Quimper</button></li>
+                    <li><button name="Bretagne" type="button" onclick="changervisibilite('BZH')">Bretagne</button></li>
+                    <li><button name="France" type="button" onclick="changervisibilite('France')">France</button></li>
                 </ul>
             </nav>
         </div>
@@ -99,19 +99,103 @@
 
 
     <section id="remplir_la_page" style="border-width: 0px">
-        <div id="pagesup1">
-            <div id="image1">
-                <a href="https://windy.com/">
-                <img src="https://maville.com/photosmvi/2022/04/29/P30642407D5202948G.jpg">
-                <p class="source">Source : Sailing Energy / FFVOILE</p></a>
+        <div id="barre_de_navigation2">
+            <nav id="bis">
+                <ul>
+                    <li id="Un"><button class="navulli" name="Horoscope" type="button" onclick="changervisibiliteTenplus('Horoscope')">Horoscope</button></li>
+                    <li id="Deux"><button class="navulli" name="Ephemeride" type="button" onclick="changervisibiliteTenplus('Ephemeride')">Ephemeride</button></li>
+                    <li id="Trois"><button class="navulli" name="Vigilances" type="button" onclick="changervisibiliteTenplus('Vigilances')">Vigilance</button></li>
+                    <li id="Quatre"><button class="navulli" name="Marées" type="button" onclick="changervisibiliteTenplus('Marees')">Marées</button></li>
+                    <li id="Cinq"><button class="navulli"  name="Liens Utiles" type="button" onclick="changervisibiliteTenplus('Liens_utiles')">Liens Utiles</button></li>
+                    <li id="Six"><button class="navulli" name="A propos" type="button" onclick="changervisibiliteTenplus('About')">A propos</button></li>
+                </ul>
+            </nav>
         </div>
-            <div id="texte1">
-                <a href="https://windy.com/"><p class="article"><span class="titre">La météo et ses influences sur le sports</span><br>
-                Hormis si vous faites de la voile ou du ski ou du vélo, vous ne portez surement pas beaucoup d'attention sur les conditions météo lorsque vous allez faire votre activité (ou regarder sur la télé) mais ce sont-eelles qui ont le dernier mot sur l'évènement&nbsp;<span class="clic">Cliquez pour lire l'article entier.</span></p></a>
+        <div id="Horoscope" style="visibility: visible;">
+            <h2 style="padding-left:25px">&emsp;Horoscope <span class="petit">(Fourni par la source on ne peut plus fiable du gorafi)</span></h2>
+            <p> <strong>Bélier : </strong>Votre patron se rendra compte qu’il peut vous remplacer par un robot ou une IA. Supprimez-le avant qu’il ne vous supprime.</p>
+            <p><strong>Taureau : </strong>Vous ferez des sourires forcés toute la semaine, un peu comme Amélie Oudéa-Castera.</p>
+            <p><strong>Gémeaux : </strong>Vous signerez tous vos messages par « Belle journée ».</p>
+            <p><strong>Cancer :</strong> Si c’est la semaine de votre anniversaire, vous recevrez votre poids en bilans comptables erronés.</p>
+            <p><strong>Lion : </strong>Vous essaierez une nouvelle glace Häagen-Dazs goût « défaite » ou « regrets ».</p>
+            <p><strong>Vierge : </strong>Vous porterez un pantalon bariolé pour être un peu original(e) cet été. Attention.</p>
+            <p><strong>Balance : </strong>Vous déciderez d’adopter un militant Reconquête, trouvé derrière une benne à ordures. Il sera craintif et agressif au début, mais vous pourrez lui apprendre l’amour.&nbsp;</p>
+            <p><strong>Scorpion : </strong>Vous ne saurez pas quoi faire de votre vie, alors comme tout le monde, vous vous ferez tatouer un truc moche.</p>
+            <p><strong>Furet :</strong> On donnera votre nom à une rue de la ville, pour vous remercier d’être une « belle personne ».&nbsp;&nbsp;</p>
+            <p><strong>Sagittaire : </strong>Un type sûr de lui sur internet vous convaincra d’investir tout ce que vous avez dans les cryptos. Vous êtes foutu(e).</p>
+            <p><strong>Capricorne : </strong>Vous vous mettrez à porter des lunettes de soleil bleu fumé, comme les vieux riches. Reprenez-vous.</p>
+            <p><strong>Verseau : </strong>Gérald Darmanin vous appellera 2-3 fois par nuit, et vous l’entendrez juste souffler lentement dans le combiné.</p>
+            <p><strong>Poissons :</strong> La police vous mettra sur écoute. Vous devrez parler en messages codés concernant les crimes que vous avez commis dernièrement. C’est une habitude à prendre.</p>
+        </div>
+        <div id="Ephemeride" style="visibility: hidden;">
+            <h2 style="padding-left:25px">&emsp;&Eacute;phéméride <span class="petit">(Fourni par moi-même)</span></h2>
+            <!--Tenter de créer puis déchiffrer un CSV-->
+        </div>
+        <div id="Vigilances" style="visibility: hidden;">
+            <h2 style="padding-left:25px">&emsp;Vigilance <span class="petit">(Source : Météo France)</span></h2>
+            <!--Intégrer les images des vigilances exportées par moi-->
+            
+        </div>
+        <div id="Marees" style="visibility: hidden;">
+            <h2 style="padding-left:25px">&emsp;Marées (pour Loctudy) <span class="petit">(Fourni par le SHOM -- Loctudy est en face de l'Île-Tudy</span></h2>
+            <!--Intégrer une image des maréees à l'ile-tudy-->
+            <script src="https://services.data.shom.fr/hdm/vignette/grande/LOCTUDY?locale=fr"></script>
+        </div>
+        <div id="Liens_utiles" style="visibility: hidden;">
+            <h2 style="padding-left:25px">&emsp;Liens Utiles</h2>
+            <!--Instagram-->
+            <!--Mail-->
+            <!--Météo France-->
+            <!--Page Wikipédia de la météo-->
+            <!--Page wikipédia de Louis Bodin-->
+            <!--Page De l'horoscope du Gorafi-->
+            <!--Lien du site Nascar-->
+            <a href="https://stackoverflow.com/questions/tagged/html" target="_blank"><img src="./Images/stackovf.png"></a>
+            <!--Lien vers distrowatch-->
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/9RYyS9eK8z8?si=kpm86PF-PnJEmBEI" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div id="About"  style="visibility: hidden;">
+            <h2 style="padding-left:25px">&emsp;&Abreve; Propos</h2>
+            <div id=gauche>
+                <h4>Chef De Projet</h4><br>
+                <p>Brévan Hamel</p><br>
+                <h4>Codeur</h4><br>
+                <p>Brévan Hamel</p><br>
+                <h4>Logo</h4><br>
+                <p>Manon Jaquemain</p>
+                <h4>Crash-Testeur</h4><br>
+                <p>Arnaud De La Fayolle De La Tourne</p>
+                <h4>Tests d'Accessilité</h4><br>
+                <p>Manon Jaquemain</p>
+                <h4>Propriétaire de l'ordinateur ayant servi à coder</h4><br>
+                <p>Brévan Hamel</p><br>
+                <h4>Cycliste sans casque mais tout de même prudent</h4><br>
+                <p>Brévan Hamel</p><br>
+                <h4>Fournisseur de Thé</h4><br>
+                <p>Brévan Hamel</p><br>
+            </div>
+            <div id="droite">
+                <h4>Buveurs de Thé</h4><br>
+                <p>Brévan Hamel<br>Arnaud De La Fayolle De La Tourne</p>
+                <h4>Distribution Linux utilisées pour la réalisation <span class="petit">(Les distributions sont cliquables et renvoie sur le site correspondant)</span></h4>
+                <p><a href="https://linuxmint.com/" target="_blank">Linux Mint</a><br><a href="https://voyagerlive.org/" target="_blank">Voyager Linux</a><br><a href="https://fedoraproject.org/fr/" target="_blank">Fedrora</a><br><a href="https://blendos.co/" target="_blank">blendOS</a></p><br>
+                <h4>Rédacteur</h4><br>
+                <p>Brévan Hamel</p><br>
+                <h4>Rédacteur adjoint</h4><br>
+                <p>Brévan Hamel</p><br>
+                <h4>Adjoint du rédacteur adjoint</h4><br>
+                <p>Brévan Hamel</p><br>
+                <h4>Rédacteur en chef en charge de l'adjoint du rédacteur adjoint</h4><br>
+                <p>Brévan Hamel</p><br>
+                <h4>Professeur de Karaté sans talent</h4><br>
+                <p>Brévan Hamel</p><br>
+                <h4>Assistant personnel de Brévan Hamel</h4><br>
+                <p>Brévan Hamel</p><br>
             </div>
         </div>
     </section>
     <script src="./scripts.js"></script>
-    <footer>© Brévan 2024 - Tous droits réservés, s'il y en a<br><br> contact : brevanhamel@outlook.fr</footer>
+    <footer>© Brévan 2024 - Tous droits réservés, s'il y en a</footer>
 </body>
 </html>

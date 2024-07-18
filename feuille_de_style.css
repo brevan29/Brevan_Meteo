@@ -22,9 +22,11 @@ div{
 }
 h2,h3{
     grid-row: 1;
-    font-size: large;
+    font-size: xx-large;
+    margin: 10px;
 }
 h3{grid-row:2;}
+h4{font-size: large;}
 p{
     font-size: medium;
     color:darkblue;
@@ -77,12 +79,12 @@ nav ul{
 .article{
     font-size: 8px;
 }
-.clic, .source{
-    font-size: 6px;
+.petit, .source{
+    font-size: 10px;
     color: black
 }
-/*Bouttons*/
-.btn,.btn2 {
+/* Bouttons */
+/* .btn2 {
     text-decoration: none;
     padding: 10px;
     font-family: arial;
@@ -96,7 +98,7 @@ nav ul{
     box-shadow: 3px 3px 12px #444444;
     -webkit-box-shadow: 3px 3px 12px #444444;
     -moz-box-shadow: 3px 3px 12px #444444;
-    width: 50px;
+    width: 140px;
     height: 55px;
     }
     
@@ -107,8 +109,4 @@ nav ul{
     box-shadow: 1px 1px 4px #777777;
     -webkit-box-shadow: 1px 1px 4px #777777;
     -moz-box-shadow: 1px 1px 4px #777777;
-    }
-
-.btn2,.btn2:hover{
-    width: 150px;
-}
+    } */
