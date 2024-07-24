@@ -26,8 +26,10 @@ function fixNav(){
         mto.style.width=(nav.offsetWidth-192).toString()+'px'
     }
 }
-
-
+let ech_soleil = document.getElementsByClassName("Soleil")
+for (i=0; i < ech_soleil.length; i++){
+    ech_soleil[i].innerHTML('<img src="Images/Soleil.svg">')
+}
 
 if (window.innerWidth<=500){
     var image = (window.innerWidth-30)/3;
