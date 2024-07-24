@@ -278,10 +278,17 @@
     grid-template-columns: 50% 50%;
     grid-template-rows: 60px auto;
 }
+#Marees{
+    justify-content: center;
+}
 #Horoscope{
     justify-items: left;
     padding-left: 20px;
     padding-top: 20px;
+}
+#Horoscope div{
+    border: 0px;
+    width: 100%;
 }
 #gauche{
     grid-row: 2;
