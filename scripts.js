@@ -26,10 +26,11 @@ function fixNav(){
         mto.style.width=(nav.offsetWidth-192).toString()+'px'
     }
 }
+function creerSoleil(){
 let ech_soleil = document.getElementsByClassName("Soleil")
 for (i=0; i < ech_soleil.length; i++){
-    ech_soleil[i].innerHTML('<img src="Images/Soleil.svg">')
-}
+    ech_soleil[i].src="Images/Soleil.svg"
+}}
 
 if (window.innerWidth<=500){
     var image = (window.innerWidth-30)/3;
@@ -40,7 +41,7 @@ if (window.innerWidth<=500){
     document.getElementById('BZH').style.overflow="hidden";
     document.getElementById('France').style.overflow="hidden";
 }
-
+creerSoleil()
 const mto = document.querySelector('.meteo_du_jour')
 const titre = document.querySelector('#titre')
 const nav = document.querySelector('#entete')
