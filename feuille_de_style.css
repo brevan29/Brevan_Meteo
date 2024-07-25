@@ -17,7 +17,7 @@ a{
 }
 div{
     display: grid;
-    border: 1px rgb(75, 56, 82) solid;
+    border: 1px rgb(152, 51, 153) solid;
     text-align: center;
 }
 h2{
@@ -33,7 +33,7 @@ margin: 5px;}
 }
 p{
     font-size: medium;
-    color: rgb(75, 56, 82);
+    color: rgb(152, 0, 153);
     margin: 0px 0px 10px 0px;
 }
 img{
