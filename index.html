@@ -5,6 +5,9 @@
     <link rel="stylesheet" href="./feuille_de_style.css">
     <link rel="stylesheet" href="./touslesdivs.css">
     <link rel="icon" href="Images/logo.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <meta name=" description" content= "Essai de page web ayant pour objectif de donner la météo et à terme de donner aussi l'horoscope, celui du gorafi" >
 </head>
 <body>
@@ -42,34 +45,35 @@
             <div id="lieu_previ">
                 <h2>Prévisions météo pour Quimper (29000)</h2>
             </div>
-            <div id="dmat">
-                <img src="" class="Soleil">
+            <div id="dmat" style="align-items: center;">
+                <img src="" class="image">
             </div>
-            <div id="dapm">
-                <img src="" class="Soleil">
+            <div id="dapm" style="align-items: center;">
+                <img src="" class="image">
             </div>
-            <div id="dsoi">
-                <img src="" class="Soleil">
+            <div id="dsoi" style="align-items: center;">
+                <img src="" class="image">
             </div>
-            <div id="admat">
+            <div id="admat" style="align-items: center;">
                 <br>
-                <img src="Images/Eclaircies.png">
+                <img src="" class="image">
             </div>
-            <div id="adapm">
+            <div id="adapm" style="align-items: center;">
                 <br>
-                <img src="Images/Eclaircies.png">
+                <img src="" class="image">
             </div>
-            <div id="adsoi">
+            <div id="adsoi" style="align-items: center;">
                 <br>
-                <img src="Images/Pluie.png">
+                <img src="" class="image">
             </div>
-            <div id="ddmat">
-                <img src="" class="Soleil">
+            <div id="ddmat" style="align-items: center;">
+                <img src="" class="image">
             </div>
-            <div id="ddapm">
-                <img src="" class="Soleil">
+            <div id="ddapm" style="align-items: center;">
+                <img src="" class="image">
             </div>
-            <div id="ddsoi"><img src="" class="Soleil">
+            <div id="ddsoi" style="align-items: center;">
+                <img src="" class="image">
             </div>
         </div>
         <div id="BZH" style="visibility: hidden;">
@@ -104,45 +108,55 @@
                 </ul>
             </nav>
         </div>
-        <div id="Horoscope" style="visibility: visible;">
+        <div id="Horoscope" class="en-plus" style="visibility: visible;">
             <h2>Horoscope <span class="petit">(Fourni par la source on ne peut plus fiable du gorafi)</span></h2>
-            <div id="Printemps">
-                <p class="enplus" id="Bélier"> <strong>Bélier : </strong>Votre patron se rendra compte qu’il peut vous remplacer par un robot ou une IA. Supprimez-le avant qu’il ne vous supprime.</p>
-                <p class="enplus" id="Taureau"><strong>Taureau : </strong>Vous ferez des sourires forcés toute la semaine, un peu comme Amélie Oudéa-Castera.</p>
-                <p class="enplus" id="Gémeaux"><strong>Gémeaux : </strong>Vous signerez tous vos messages par « Belle journée ».</p>
+            <div id="Printemps" style="grid-row: 2; grid-column: 1; visibility: hidden;">
+                <p class="enplus" id="Bélier"> <span style="font-weight: bold; color: var(--violet-brevan-fonce);">Bélier : </span>Votre patron se rendra compte qu’il peut vous remplacer par un robot ou une IA. Supprimez-le avant qu’il ne vous supprime.</p>
+                <p class="enplus" id="Taureau"><span style="font-weight: bold; color: var(--violet-brevan-fonce);">Taureau : </span>Vous ferez des sourires forcés toute la semaine, un peu comme Amélie Oudéa-Castera.</p>
+                <p class="enplus" id="Gémeaux"><span style="font-weight: bold; color: var(--violet-brevan-fonce);">Gémeaux : </span>Vous signerez tous vos messages par « Belle journée ».</p>
             </div>
-            <div id="Eté">
-                <p class="enplus" id="Cancer"><strong>Cancer :</strong> Si c’est la semaine de votre anniversaire, vous recevrez votre poids en bilans comptables erronés.</p>
-                <p class="enplus" id="lion"><strong>Lion : </strong>Vous essaierez une nouvelle glace Häagen-Dazs goût « défaite » ou « regrets ».</p>
-                <p class="enplus"id=Vierge><strong>Vierge : </strong>Vous porterez un pantalon bariolé pour être un peu original(e) cet été. Attention.</p>
+            <div id="Eté" style="grid-row: 2; grid-column: 1; visibility: visible;">
+                <p class="enplus" id="Cancer"><span style="font-weight: bold; color: var(--violet-brevan-fonce);">Cancer :</span> Si c’est la semaine de votre anniversaire, vous recevrez votre poids en bilans comptables erronés.</p>
+                <p class="enplus" id="lion"><span style="font-weight: bold; color: var(--violet-brevan-fonce);">Lion : </span>Vous essaierez une nouvelle glace Häagen-Dazs goût « défaite » ou « regrets ».</p>
+                <p class="enplus"id=Vierge><span style="font-weight: bold; color: var(--violet-brevan-fonce);">Vierge : </span>Vous porterez un pantalon bariolé pour être un peu original(e) cet été. Attention.</p>
             </div>
-            <div id="Automne">
-                <p class="enplus" id="Balance"><strong>Balance : </strong>Vous déciderez d’adopter un militant Reconquête, trouvé derrière une benne à ordures. Il sera craintif et agressif au début, mais vous pourrez lui apprendre l’amour.</p>
-                <p class="enplus" id="Scorpion"><strong>Scorpion : </strong>Vous ne saurez pas quoi faire de votre vie, alors comme tout le monde, vous vous ferez tatouer un truc moche.</p>
-                <p class="enplus" id="Sagittaire"><strong>Sagittaire : </strong>Un type sûr de lui sur internet vous convaincra d’investir tout ce que vous avez dans les cryptos. Vous êtes foutu(e).</p>
+            <div id="Automne" style="grid-row: 2; grid-column: 1; visibility: hidden;">
+                <p class="enplus" id="Balance"><span style="font-weight: bold; color: var(--violet-brevan-fonce);">Balance : </span>Vous déciderez d’adopter un militant Reconquête, trouvé derrière une benne à ordures. Il sera craintif et agressif au début, mais vous pourrez lui apprendre l’amour.</p>
+                <p class="enplus" id="Scorpion"><span style="font-weight: bold; color: var(--violet-brevan-fonce);">Scorpion : </span>Vous ne saurez pas quoi faire de votre vie, alors comme tout le monde, vous vous ferez tatouer un truc moche.</p>
+                <p class="enplus" id="Sagittaire"><span style="font-weight: bold; color: var(--violet-brevan-fonce);">Sagittaire : </span>Un type sûr de lui sur internet vous convaincra d’investir tout ce que vous avez dans les cryptos. Vous êtes foutu(e).</p>
             </div>
-            <div id="Hiver">
-                <p class="enplus" id="Capricorne"><strong>Capricorne : </strong>Vous vous mettrez à porter des lunettes de soleil bleu fumé, comme les vieux riches. Reprenez-vous.</p>
-                <p class="enplus" id="Verseau"><strong>Verseau : </strong>Gérald Darmanin vous appellera 2-3 fois par nuit, et vous l’entendrez juste souffler lentement dans le combiné.</p>
-                <p class="enplus" id="Poissons"><strong>Poissons :</strong> La police vous mettra sur écoute. Vous devrez parler en messages codés concernant les crimes que vous avez commis dernièrement. C’est une habitude à prendre.</p>
+            <div id="Hiver" style="grid-row: 2; grid-column: 1; visibility: hidden;">
+                <p class="enplus" id="Capricorne"><span style="font-weight: bold; color: var(--violet-brevan-fonce);">Capricorne : </span>Vous vous mettrez à porter des lunettes de soleil bleu fumé, comme les vieux riches. Reprenez-vous.</p>
+                <p class="enplus" id="Verseau"><span style="font-weight: bold; color: var(--violet-brevan-fonce);">Verseau : </span>Gérald Darmanin vous appellera 2-3 fois par nuit, et vous l’entendrez juste souffler lentement dans le combiné.</p>
+                <p class="enplus" id="Poissons"><span style="font-weight: bold; color: var(--violet-brevan-fonce);">Poissons :</span> La police vous mettra sur écoute. Vous devrez parler en messages codés concernant les crimes que vous avez commis dernièrement. C’est une habitude à prendre.</p>
+            </div>
+            <div id="QuatreSaisons" style="grid-row: 2; grid-column: 1; visibility: hidden; height: 315px; justify-content: center; width: 100%; border: 0cap;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/9RYyS9eK8z8?si=kpm86PF-PnJEmBEI" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div style="width: 75%; align-items: baseline; justify-items: center; grid-template-columns: 20% 20% 20% 20% 20%; height: fit-content; justify-self: center; border: 0cap; grid-row: 3;">
+                <button class="saison" onclick="ChangerDeSaison('Printemps')">Printemps</button>
+                <button class="saison" onclick="ChangerDeSaison('Eté')">Eté</button>
+                <button class="saison" onclick="ChangerDeSaison('Automne')">Automne</button>
+                <button class="saison" onclick="ChangerDeSaison('Hiver')">Hiver</button>
+                <button class="saison" onclick="ChangerDeSaison('QuatreSaisons')">Les 4 saisons</button>
             </div>
         </div>
-        <div id="Ephemeride" style="visibility: hidden;">
+        <div id="Ephemeride" class="en-plus"style="visibility: hidden;">
             <h2 >&emsp;&Eacute;phéméride <span class="petit">(Fourni par moi-même)</span></h2>
             <!--Tenter de créer puis déchiffrer un CSV-->
         </div>
-        <div id="Vigilances" style="visibility: hidden;">
+        <div id="Vigilances" class="en-plus" style="visibility: hidden;">
             <h2 >&emsp;Vigilance <span class="petit">(Source : Météo France)</span></h2>
             <!--Intégrer les images des vigilances exportées par moi-->
             
         </div>
-        <div id="Marees" style="visibility: hidden;">
-            <h2 >&emsp;Marées (pour Loctudy) <span class="petit">(Fourni par le SHOM -- Loctudy est en face de l'Île-Tudy</span></h2>
+        <div id="Marees" class="en-plus" style="visibility: hidden;">
+            <h2 style="margin: 10px;">&emsp;Marées (pour Loctudy) <span class="petit">(Fourni par le SHOM -- Loctudy est en face de l'Île-Tudy</span></h2>
             <!--Intégrer une image des maréees à l'ile-tudy-->
             <script src="https://services.data.shom.fr/hdm/vignette/grande/LOCTUDY?locale=fr"></script>
         </div>
-        <div id="Liens_utiles" style="visibility: hidden;">
-            <h2  style="grid-column:span 10; height:50px">&emsp;Liens Utiles</h2>
+        <div id="Liens_utiles" class="en-plus" style="visibility: hidden;">
+            <h2  style="grid-column:span 10; height:50px; margin: 10px">&emsp;Liens Utiles</h2>
             <div id="jsp">
             <a href="https://www.instagram.com/brevamel/" target="_blank" style="grid-column: 1;"><img src="./Images/Insta.svg"></a>
             <a href="https://meteofrance.com/" target="_blank" style="grid-column: 2;"><img src="./Images/MF.png"></a>
@@ -169,7 +183,7 @@
             </div>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/9RYyS9eK8z8?si=kpm86PF-PnJEmBEI" title="YouTube video player" frameborder="0" allowfullscreen style="grid-row: 3;"></iframe>
         </div>
-        <div id="About"  style="visibility: hidden;">
+        <div id="About" class="en-plus" style="visibility: hidden;">
             <h2 style="grid-column: span 2;">&Agrave; Propos</h2>
             <div id=gauche>
                 <h4>Chef De Projet</h4>
