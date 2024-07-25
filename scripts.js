@@ -10,8 +10,8 @@ var Actif2=document.getElementById('Horoscope')
 function changervisibiliteTenplus(elm){
     const AChanger=document.getElementById(elm)
     if (AChanger.style.visibility=='hidden'){
-        AChanger.style.visibility='visible';}
         Actif2.style.visibility='hidden';
+        AChanger.style.visibility='visible';}
         Actif2=AChanger;
 }
 function fixNav(){
