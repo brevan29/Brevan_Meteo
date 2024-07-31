@@ -45,6 +45,10 @@ function fixNav(){
         mto.style.height='90px'
         mto.style.width=(nav.offsetWidth-92).toString()+'px'
         document.getElementById('lieu').innerHTML = ""
+        for (i=0; i<3; i++){
+            previdujour[i].style.height = '90px'
+        }
+        previdujour[2].style.borderRadius = '0px 20px 20px 0px'
     }
     else{
         nav.classList.remove('active')
@@ -53,6 +57,10 @@ function fixNav(){
         mto.style.height='190px'
         mto.style.width=(nav.offsetWidth-190).toString()+'px'
         document.getElementById('lieu').innerHTML = "Météo du jour pour Quimper"
+        for (i=0; i<3; i++){
+            previdujour[i].style.height = 'auto'
+        }
+        previdujour[2].style.borderRadius = '0px 0px 20px 0px'
     }
 }
 function creerTemps(quand, temps){
@@ -84,6 +92,7 @@ function ChangerDeSaison(elm){
 const mto = document.querySelector('.meteo_du_jour')
 const titre = document.querySelector('#titre')
 const nav = document.querySelector('#entete')
+const previdujour = document.getElementsByClassName('ajd')
 window.addEventListener('scroll', fixNav);
 
 const heiyt = document.getElementById('Horoscope').offsetHeight;

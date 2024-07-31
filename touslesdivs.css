@@ -298,14 +298,14 @@
     border-radius: 0px 0px 20px 20px;
 }
 #jsp{
-    grid-template-columns: 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px;
+    grid-template-columns: 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px;
     overflow-x: scroll;
     border: 0cap;
-    height: 210px;
+    height: 155px;
 }
 #Liens_utiles a img{
-    width: 190px;
-    height: 190px;
+    width: 150px;
+    height: 150px;
 }
 #About{
     grid-template-columns: 50% 50%;
