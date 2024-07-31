@@ -10,7 +10,7 @@ body{
     font-family: Roboto;
     font-size: small;
     overflow-x: hidden;
-    background-color: rgb(235, 219, 174);
+    background-color: rgb(255, 241, 203);
 }
 
 section{
@@ -40,7 +40,7 @@ margin: 5px;}
     margin: 0;
 }
 p{
-    font-size: medium;
+    font-size: large;
     color: var(--violet-brevan);
     margin: 0px 0px 10px 0px;
 }

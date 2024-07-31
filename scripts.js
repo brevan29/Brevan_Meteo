@@ -40,17 +40,22 @@ function changervisibiliteTenplus(elm){
 function fixNav(){
     if(window.scrollY > nav.offsetHeight + 25){
         nav.classList.add('active')
-        titre.style.width='136px'
-        mto.style.width=(nav.offsetWidth-140).toString()+'px'
+        titre.style.height='90px'
+        titre.style.width='90px'
+        mto.style.height='90px'
+        mto.style.width=(nav.offsetWidth-92).toString()+'px'
+        document.getElementById('lieu').innerHTML = ""
     }
     else{
         nav.classList.remove('active')
+        titre.style.height='188px'
         titre.style.width='188px'
-        mto.style.width=(nav.offsetWidth-192).toString()+'px'
+        mto.style.height='190px'
+        mto.style.width=(nav.offsetWidth-190).toString()+'px'
+        document.getElementById('lieu').innerHTML = "Météo du jour pour Quimper"
     }
 }
 function creerTemps(quand, temps){
-    console.log(quand)
 let échéance = getElementsById(quand).getElementsByTagName('img')
 let extension = ".png"
 if (temps === "Soleil"){extension = '.svg'}
@@ -101,28 +106,34 @@ function Traitement(previ){
     let Matin = document.getElementById("ImgMatin");
     let Aprem = document.getElementById("ImgApm");
     let Soir = document.getElementById("ImgSoir");
+    let Txt = document.getElementsByClassName("txt-mto")
     for(i=0; i<quands.length; i++){
         //Récupération de la prévision le jour.
         if (i<3){
             let previprécise = previ.demain;
             if (quands[i].slice(1)=== "mat"){
-                console.log(Matin)
                 let previplusprécise = previprécise.matin;
                 const Mto = previplusprécise.Temps
                 minidiv[i].src = './Images/'+Mto+'.png'
                 Matin.src = './Images/'+Mto+'.png'
+                Txt[0].innerHTML = '<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'
+                if (previplusprécise.vent != null) {Txt[0].innerHTML=Txt[0].textContent+'<br>'+previplusprécise.Vent.toString()+'km/h'}
             }
             else if (quands[i].slice(1)=== "apm"){
                 let previplusprécise = previprécise.aprèsmidi;
                 const Mto = previplusprécise.Temps
                 minidiv[i].src = './Images/'+Mto+'.png'
                 Aprem.src = './Images/'+Mto+'.png'
+                Txt[1].innerHTML = '<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C'
+                if (previplusprécise.vent != null) {Txt[1].innerHTML=Txt[0].textContent+'<br>'+previplusprécise.Vent.toString()+'km/h'}
             }
             else if (quands[i].slice(1)=== "soi"){
                 let previplusprécise = previprécise.soir;
                 const Mto = previplusprécise.Temps
                 minidiv[i].src = './Images/'+Mto+'.png'
                 Soir.src = './Images/'+Mto+'.png'
+                Txt[2].innerHTML = '<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'
+                if (previplusprécise.vent != null) {Txt[2].innerHTML=Txt[0].textContent+'<br>'+previplusprécise.Vent.toString()+'km/h'}
             }
         }
         else if (i>=3 && i<6){

@@ -83,13 +83,17 @@
 }
 #entete.active{
     grid-template-columns: auto auto;
+    #lieu{
+        height: 0px;
+        border: 0px;
+    }
     .ajd .ico-mto img{
-        max-width: 100px;
-        max-height: 100px;
+        max-width: 90px;
+        max-height: 90px;
     }
     #logo{
-        width: 136px;
-        height: 136px;
+        width: 90px;
+        height: 90px;
     }
 }
 /*Partie à propos des prévisions que j'aurai réalisé*/
