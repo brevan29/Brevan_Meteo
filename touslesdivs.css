@@ -272,6 +272,14 @@
         font-size: 15px;
         padding-right: 30px;
     }
+    #gauche{
+        grid-column: span 2;
+        grid-row: 1;
+    }
+    #droite{
+        grid-column: span 2;
+        grid-row: 2;
+    }
 }
 
 .grosse_carte{
