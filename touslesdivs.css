@@ -73,9 +73,8 @@
     border: 0px solid;
     margin: 0%;
     text-align: right;
+    align-items: center;
     padding-right: 15px;
-    padding-top: 15px;
-    vertical-align: baseline;
 }
 .ajd .ico-mto img{
     max-width: 150px;
@@ -145,6 +144,23 @@
     grid-column-start: 1;
     grid-column-end: span 3;
     display: grid;
+}
+.Prévisions{
+    grid-template-columns: 65% 35%;
+    img{
+        grid-column: 1;
+    }
+    div{
+        border: 0px;
+        grid-column: 2;
+        p{
+            
+            margin: 0%;
+            text-align: right;
+            align-items: center;
+            padding-right: 30%;
+        }
+    }
 }
 #dmat{
     grid-row: 2;
