@@ -266,7 +266,11 @@
 
 @media (orientation: portrait) {
     .enplus{
-        font-size: 25px;
+        font-size: 27px;
+    }
+    .Write{
+        font-size: 15px;
+        padding-right: 30px;
     }
 }
 
