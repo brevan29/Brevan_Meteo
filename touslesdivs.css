@@ -152,10 +152,8 @@
         grid-column: 1;
 }
 .Write{
-        border: 0px;
-        grid-column: 2;
-}
-.Write p{
+    border: 0px;
+    grid-column: 2;
     font-size: 19px;
     margin: 0%;
     text-align: right;
