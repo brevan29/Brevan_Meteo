@@ -288,6 +288,20 @@
         padding-top: 15px;
         vertical-align: baseline;
     }
+    p{
+        font-size: 25px;
+    }
+}
+
+@media (orientation: landscape) {
+    p{
+        font-size: 19px;
+    }
+}
+@media (orientation: portrait) {
+    p{
+        font-size: 25px;
+    }
 }
 .grosse_carte{
     max-height : 100%;
