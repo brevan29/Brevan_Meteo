@@ -40,6 +40,7 @@ margin: 5px;}
     margin: 0;
 }
 p{
+    font-size: 19px;
     color: var(--violet-brevan);
     margin: 0px 0px 10px 0px;
 }
