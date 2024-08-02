@@ -19,16 +19,15 @@ function changervisibiliteTenplus(elm){
             divs[i].style.height = heiyt.toString()+'px'
         }}
     let divs = ["Automne", "Eté", "Hiver", "Printemps", "QuatreSaisons", "Bouttons"]
-    if (elm==='Horoscope'){
+    if (elm==='Horoscope' && Actif2!='Horoscope'){
             document.getElementById('Horoscope').style.padding = '20px 0px 0px 20px'
             saisonAffichee.style.visibility = 'visible'
             document.getElementById('Bouttons').style.visibility = 'visible'
             let truc = 'truc'
         }
-    if (Actif2==='Horoscope'){
+    if (Actif2==='Horoscope' && elm!='Horoscope'){
         document.getElementById('Horoscope').style.padding = '0px'
         for (i=0; i<6; i++){
-            let truc = 'truc'
             document.getElementById(divs[i]).style.visibility = 'hidden'
         }
     }

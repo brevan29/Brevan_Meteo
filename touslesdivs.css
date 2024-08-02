@@ -299,14 +299,15 @@
     border-radius: 0px 0px 20px 20px;
 }
 #jsp{
-    grid-template-columns: 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px;
-    overflow-x: scroll;
+    grid-template-columns: 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px;
+    grid-template-rows: auto auto;
     border: 0cap;
-    height: 155px;
+    height: 310px;
 }
 #Liens_utiles a img{
     width: 150px;
     height: 150px;
+    border-radius: 20%;
 }
 #About{
     grid-template-columns: 50% 50%;
