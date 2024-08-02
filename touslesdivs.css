@@ -307,8 +307,10 @@
     border-radius: 0px 0px 20px 20px;
 }
 #jsp{
+    width: 98vw;
     grid-template-columns: 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px 155px;
     grid-template-rows: auto auto;
+    overflow-x: scroll;
     border: 0cap;
     height: 310px;
 }
