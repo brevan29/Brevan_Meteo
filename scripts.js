@@ -206,3 +206,19 @@ function Traitement(previ){
             }
         }
     };}
+
+if (window.innerHeight > window.innerWidth){
+    let enplus = document.getElementsByClassName('.enplus')
+    for (i=0; i<enplus.length; i++){
+        enplus[i].style.fontSize = '27px'
+    }
+    let ecrire = document.getElementsByClassName('Write')
+    for (i=0; i<ecrire.length; i++){
+        ecrire[i].style.fontSize = '15px'
+        ecrire[i].style.paddingRight = '30px'
+    }
+    let gauche= document.getElementById('gauche')
+    gauche.style.gridArea = "4 / 1 / 4 /span 2"
+    let droite = document.getElementById('droite')
+    droite.style.gridArea = "5 / 1 / 5 /span 2"
+    }

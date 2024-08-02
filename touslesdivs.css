@@ -264,22 +264,7 @@
     padding-left: 1px solid;
 }
 
-@media (orientation: portrait) {
-    .enplus{
-        font-size: 27px;
-    }
-    .Write{
-        font-size: 15px;
-        padding-right: 30px;
-    }
-    #gauche{
-        grid-column: span 2;
-        grid-row: 1;
-    }
-    #droite{
-        grid-column: span 2;
-        grid-row: 2;
-    }
+@media only screen and (orientation: portrait) {
 }
 
 .grosse_carte{
@@ -343,11 +328,11 @@
     justify-self: center;
 }
 #gauche{
-    grid-row: 2;
+    grid-row: 4;
     grid-column: 1;
 }
 #droite{
-    grid-row: 2;
+    grid-row: 4;
     grid-column: 2;
 }
 #About p{
