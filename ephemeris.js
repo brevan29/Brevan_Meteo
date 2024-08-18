@@ -500,4 +500,4 @@ var ephemeris = {
     return this.getEphemerisName(today.getDate(), today.getMonth() + 1);
   }
 };
-document.getElementById('saint').innerText = getTodayEphemeris()
+document.getElementById('saint').innerText = ephemeris.getTodayEphemeris()
