@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <meta name=" description" content= "Essai de page web ayant pour objectif de donner la météo et à terme de donner aussi l'horoscope, celui du gorafi" >
+    <script src="./ephemeris.js"></script>
 </head>
 <body>
     <section id="caché" style="position: fixed; top: 0; grid-row: 1; width: 98vw; z-index: -10; visibility: hidden;">
@@ -152,7 +153,9 @@
         </div>
         <div id="Ephemeride" class="en-plus"style="visibility: hidden;">
             <h2 >&emsp;&Eacute;phéméride <span class="petit">(Fourni par moi-même)</span></h2>
-            <!--Tenter de créer puis déchiffrer un CSV-->
+            <p id="saint"></p>
+            <p id="soleil"></p>
+            <p id="lune"></p>
         </div>
         <div id="Vigilances" class="en-plus" style="visibility: hidden;">
             <h2 >&emsp;Vigilance <span class="petit">(Source : Météo France)</span></h2>
