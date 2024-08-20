@@ -1,0 +1,23 @@
+{
+    "Horoscope":{
+        "Belier" : "Bla bla bla",
+        "Taureau" : "Bla bla bis",
+        "Gemeaux" : "Bla bla bla",
+        "Cancer" : "Bla bla bla",
+        "Lion" : "Bla bla bla",
+        "Vierge" : "Bla bla bla",
+        "Balance" : "Bla bla bla",
+        "Scorpion" : "Bla bla bla",
+        "Sagittaire" : "Bla bla bla",
+        "Capricorne" : "Bla bla bla",
+        "Verseau" : "Bla bla bla",
+        "Poissons" : "Bla bla bla"
+    },
+    "Ephemeride" : {
+        "Date" : "Aujourd'hui ou Demain",
+        "Saint" : "Huguette",
+        "Lever" : "8h20",
+        "Coucher" : "8h21",
+        "Lune" : "QQpart autour de la Terre"
+    }
+}

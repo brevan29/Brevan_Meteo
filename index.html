@@ -111,7 +111,8 @@
                 <ul>
                     <li id="Un"><button class="navulli" name="Horoscope" type="button" onclick="changervisibiliteTenplus('Horoscope')">Horoscope</button></li>
                     <li id="Deux"><button class="navulli" name="Ephemeride" type="button" onclick="changervisibiliteTenplus('Ephemeride')">Ephemeride</button></li>
-                    <li id="Trois"><button class="navulli" name="Vigilances" type="button" onclick="changervisibiliteTenplus('Vigilances')">Vigilance</button></li>
+                    <!--<li id="Trois"><button class="navulli" name="Vigilances" type="button" onclick="changervisibiliteTenplus('Vigilances')">Vigilance</button></li> -- Changer la disposition des différents bouttons.-->
+                    <!-- Avec la vigilance : 6 "auto"s ; Sans la vigilance : 5 "auto"s et 1 0px en 3eme pos-->
                     <li id="Quatre"><button class="navulli" name="Marées" type="button" onclick="changervisibiliteTenplus('Marees')">Marées</button></li>
                     <li id="Cinq"><button class="navulli"  name="Liens Utiles" type="button" onclick="changervisibiliteTenplus('Liens_utiles')">Liens Utiles</button></li>
                     <li id="Six"><button class="navulli" name="A propos" type="button" onclick="changervisibiliteTenplus('About')">A propos</button></li>
@@ -121,13 +122,13 @@
         <div id="Horoscope" class="en-plus" style="visibility: visible;">
             <h2>Horoscope <span class="petit">(Fourni par la source on ne peut plus fiable du gorafi)</span></h2>
             <div id="Printemps" class='dive' style="grid-row: 2; grid-column: 1; visibility: hidden;">
-                <p class="enplus" id="Bélier"> <span style="font-weight: bold; color: var(--violet-brevan-fonce);">Bélier : </span>Votre patron se rendra compte qu’il peut vous remplacer par un robot ou une IA. Supprimez-le avant qu’il ne vous supprime.</p>
+                <p class="enplus" id="Belier"> <span style="font-weight: bold; color: var(--violet-brevan-fonce);">Bélier : </span>Votre patron se rendra compte qu’il peut vous remplacer par un robot ou une IA. Supprimez-le avant qu’il ne vous supprime.</p>
                 <p class="enplus" id="Taureau"><span style="font-weight: bold; color: var(--violet-brevan-fonce);">Taureau : </span>Vous ferez des sourires forcés toute la semaine, un peu comme Amélie Oudéa-Castera.</p>
-                <p class="enplus" id="Gémeaux"><span style="font-weight: bold; color: var(--violet-brevan-fonce);">Gémeaux : </span>Vous signerez tous vos messages par « Belle journée ».</p>
+                <p class="enplus" id="Gemeaux"><span style="font-weight: bold; color: var(--violet-brevan-fonce);">Gémeaux : </span>Vous signerez tous vos messages par « Belle journée ».</p>
             </div>
             <div id="Eté" class='dive' style="grid-row: 2; grid-column: 1; visibility: visible;">
                 <p class="enplus" id="Cancer"><span style="font-weight: bold; color: var(--violet-brevan-fonce);">Cancer :</span> Si c’est la semaine de votre anniversaire, vous recevrez votre poids en bilans comptables erronés.</p>
-                <p class="enplus" id="lion"><span style="font-weight: bold; color: var(--violet-brevan-fonce);">Lion : </span>Vous essaierez une nouvelle glace Häagen-Dazs goût « défaite » ou « regrets ».</p>
+                <p class="enplus" id="Lion"><span style="font-weight: bold; color: var(--violet-brevan-fonce);">Lion : </span>Vous essaierez une nouvelle glace Häagen-Dazs goût « défaite » ou « regrets ».</p>
                 <p class="enplus"id=Vierge><span style="font-weight: bold; color: var(--violet-brevan-fonce);">Vierge : </span>Vous porterez un pantalon bariolé pour être un peu original(e) cet été. Attention.</p>
             </div>
             <div id="Automne" class='dive' style="grid-row: 2; grid-column: 1; visibility: hidden;">
@@ -136,7 +137,7 @@
                 <p class="enplus" id="Sagittaire"><span style="font-weight: bold; color: var(--violet-brevan-fonce);">Sagittaire : </span>Un type sûr de lui sur internet vous convaincra d’investir tout ce que vous avez dans les cryptos. Vous êtes foutu(e).</p>
             </div>
             <div id="Hiver" class='dive' style="grid-row: 2; grid-column: 1; visibility: hidden;">
-                <p class="enplus" id="Capricorne"><span style="font-weight: bold; color: var(--violet-brevan-fonce);">Capricorne : </span>Vous vous mettrez à porter des lunettes de soleil bleu fumé, comme les vieux riches. Reprenez-vous.</p>
+                <p class="enplus" id="Capricorne"><span style="font-weight: bold; color: var(--violet-brevan-fonce);">Capricorne : </span><span>Vous vous mettrez à porter des lunettes de soleil bleu fumé, comme les vieux riches. Reprenez-vous.</span></p>
                 <p class="enplus" id="Verseau"><span style="font-weight: bold; color: var(--violet-brevan-fonce);">Verseau : </span>Gérald Darmanin vous appellera 2-3 fois par nuit, et vous l’entendrez juste souffler lentement dans le combiné.</p>
                 <p class="enplus" id="Poissons"><span style="font-weight: bold; color: var(--violet-brevan-fonce);">Poissons :</span> La police vous mettra sur écoute. Vous devrez parler en messages codés concernant les crimes que vous avez commis dernièrement. C’est une habitude à prendre.</p>
             </div>
@@ -153,13 +154,14 @@
         </div>
         <div id="Ephemeride" class="en-plus"style="visibility: hidden;">
             <h2 >&emsp;&Eacute;phéméride <span class="petit">(Fourni par moi-même)</span></h2>
-            <p id="saint"></p>
-            <p id="soleil"></p>
-            <p id="lune"></p>
+            <p id="Date"></p>
+            <p class="enplus" id="Saint"></p>
+            <p class="enplus" id="Lever"></p>
+            <p class="enplus" id="Coucher"></p>
+            <p class="enplus" id="Lune"></p>
         </div>
         <div id="Vigilances" class="en-plus" style="visibility: hidden;">
             <h2 >&emsp;Vigilance <span class="petit">(Source : Météo France)</span></h2>
-            <!--Intégrer les images des vigilances exportées par moi-->
             
         </div>
         <div id="Marees" class="en-plus" style="visibility: hidden;">
@@ -191,8 +193,8 @@
             <a href="https://www.legorafi.fr" target="_blank" style="grid-column: 7; grid-row: 2;"><img src="./Images/gorafi.png"></a>
             <a href="https://www.palaisdesthes.com/fr/" target="_blank" style="grid-column: 8; grid-row: 2;"><img src="./Images/thés.png"></a>
             <a href="https://youtu.be/9RYyS9eK8z8" target="_blank" style="grid-column: 9; grid-row: 2;"><img src="./Images/youtube.png"></a>
-            <a href="https://youtu.be/L3qIC2ZhXIs?si=X-D4A_WyhY49QrxR" target="_blank" style="grid-column: 10; grid-row: 2;"><img src="./Images/svg.png"></a>
-            <a href="about:blank" target="_blank" style="grid-column: 11; grid-row: 2;"><img src="./Images/rien.png"></a>
+            <a href="https://meteofrance.com/previsions-meteo-france/brevans/39100" target="_blank" style="grid-column: 11; grid-row: 2;"><img src="./Images/logo-1.png"></a>
+            <a href="about:blank" target="_blank" style="grid-column: 10; grid-row: 2;"><img src="./Images/rien.png"></a>
             <a href="https://brevan29.github.io/Brevan_Meteo" style="grid-column: 12; grid-row: 2;"><img src="./Images/logo.png"></a>
             </div>
         </div>

@@ -125,10 +125,8 @@ function Traitement(previ){
                 const Mto = previplusprécise.Temps
                 minidiv[i].src = './Images/'+Mto+'.png'
                 Matin.src = './Images/'+Mto+'.png'
-                console.log(AEcrire[0].getElementsByTagName('p'))
                 AEcrire[0].innerHTML = "<p>"+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
                 Txt[0].innerHTML = '<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
-                console.log(previplusprécise.Vent)
                 if (Number.isInteger(previplusprécise.Vent)) {
                     Txt[0].innerHTML='<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'; 
                     AEcrire[0].innerHTML = '<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
@@ -140,7 +138,6 @@ function Traitement(previ){
                 Aprem.src = './Images/'+Mto+'.png'
                 Txt[1].innerHTML = '<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C</p>'
                 AEcrire[1].innerHTML = '<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
-                console.log(previplusprécise.Vent)
                 if (Number.isInteger(previplusprécise.Vent)) 
                     {Txt[1].innerHTML='<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>';
                     AEcrire[1].innerHTML = '<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
@@ -222,3 +219,31 @@ if (window.innerHeight > window.innerWidth){
     let droite = document.getElementById('droite')
     droite.style.gridArea = "5 / 1 / 5 /span 2"
     }
+
+    let Requete = new XMLHttpRequest();
+    Requete.open("GET", "./supplementaire.json");
+    Requete.responseType = "json";
+    Requete.send();
+    Requete.onload = function () {
+        var donnees = Requete.response;
+        Affichage(donnees)}
+
+function Affichage(donnees){
+    document.getElementById("Belier").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Bélier : </span>'+donnees.Horoscope.Belier
+    document.getElementById("Taureau").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Taureau : </span>'+donnees.Horoscope.Taureau
+    document.getElementById("Gemeaux").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Gémeaux : </span>'+donnees.Horoscope.Gemeaux
+    document.getElementById("Cancer").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Cancer : </span>'+donnees.Horoscope.Cancer
+    document.getElementById("Lion").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Lion : </span>'+donnees.Horoscope.Lion
+    document.getElementById("Vierge").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Vierge : </span>'+donnees.Horoscope.Vierge
+    document.getElementById("Capricorne").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Capricorne : </span>'+donnees.Horoscope.Capricorne
+    document.getElementById("Verseau").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Verseau : </span>'+donnees.Horoscope.Verseau
+    document.getElementById("Poissons").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Poissons : </span>'+donnees.Horoscope.Poissons
+    document.getElementById("Balance").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Balance : </span>'+donnees.Horoscope.Balance
+    document.getElementById("Scorpion").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Scorpion : </span>'+donnees.Horoscope.Scorpion
+    document.getElementById("Sagittaire").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Sagittaire : </span>'+donnees.Horoscope.Sagittaire
+    document.getElementById("Date").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">'+donnees.Ephemeride.Date+'</span>'
+    document.getElementById("Saint").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Saint(e) </span>'+donnees.Ephemeride.Saint
+    document.getElementById("Lever").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Lever du Soleil : </span>'+donnees.Ephemeride.Lever
+    document.getElementById("Coucher").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Coucher du Soleil : </span>'+donnees.Ephemeride.Coucher
+    document.getElementById("Lune").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Phase de la Lune : </span>'+donnees.Ephemeride.Lune
+}
