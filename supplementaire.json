@@ -1,23 +1,51 @@
 {
-    "Horoscope":{
-        "Belier" : "Bla bla bla",
-        "Taureau" : "Bla bla bis",
-        "Gemeaux" : "Bla bla bla",
-        "Cancer" : "Bla bla bla",
-        "Lion" : "Bla bla bla",
-        "Vierge" : "Bla bla bla",
-        "Balance" : "Bla bla bla",
-        "Scorpion" : "Bla bla bla",
-        "Sagittaire" : "Bla bla bla",
-        "Capricorne" : "Bla bla bla",
-        "Verseau" : "Bla bla bla",
-        "Poissons" : "Bla bla bla"
+    "jour": "22",
+    "Horoscope": {
+        "Aujourd'hui": {
+            "Bélier": " 1",
+            "Taureau": " 2",
+            "Gémeaux": " 3",
+            "Cancer": " 4",
+            "Lion": " 5",
+            "Vierge": " 6",
+            "Balance": " 7",
+            "Scorpion": " 8",
+            "Furet": " ",
+            "Sagittaire": " 9",
+            "Capricorne": " 10",
+            "Verseau": " 11",
+            "Poissons": " 12"
+        },
+        "Demain": {
+            "Bélier": " Vous observerez les nuages pour y chercher des formes, mais vous n’y verrez que le visage satisfait d’Emmanuel Macron.",
+            "Taureau": " Votre N+1 reviendra de vacances avec un petit cadeau pour vous : la variole du singe.",
+            "Gémeaux": " Le fantôme d’Alain Delon viendra vous rendre visite pour vous dire à quel point Alain Delon était merveilleux.",
+            "Cancer": " Un chat roux jaillira d’un rebord de fenêtre pour vous griffer la nuque. Attention aux rebords de fenêtre.",
+            "Lion": " Vous voudrez lire un article sur internet mais il sera réservé aux abonnés. Bien fait !",
+            "Vierge": " Toute cette semaine tournera autour de la transpiration. Remettez-vous en question.",
+            "Balance": " Vous devrez ramener en voiture Elisabeth Lévy qui sera trop ivre pour rentrer. Elle vomira sur vos sièges, et ne s’excusera pas.",
+            "Scorpion": " Vous serez mise(e) sous vide, et entreposé(e) au réfrigérateur jusqu’au mois d’octobre.",
+            "Furet": " Vous cambriolerez l’appartement d’un footballer pendant qu’il est à l’étranger. Bravo !",
+            "Sagittaire": " Si vous êtes à la plage, Xavier Bertrand vous volera vos chaussures pendant que vous vous baignez. Il les cache sous son lit pour les sentir quand il angoisse.",
+            "Capricorne": " Vous aurez une chanson de Zaho de Sagazan dans la tête pendant 96 heures. Ne vous défenestrez pas.",
+            "Verseau": " On vous sommera d’aller « vous faire cuire le cul ». Vous n’aurez pas assez de répartie pour répondre à cette attaque.",
+            "Poissons": " Vous tracerez un pentacle sur votre parquet pour invoquer un démon. Cela fonctionnera et il vous accordera un prêt à taux zéro en échange de 200 âmes. A vous de voir."
+        }
     },
-    "Ephemeride" : {
-        "Date" : "Aujourd'hui ou Demain",
-        "Saint" : "Huguette",
-        "Lever" : "8h20",
-        "Coucher" : "8h21",
-        "Lune" : "QQpart autour de la Terre"
+    "Ephemeride": {
+        "Aujourd'hui": {
+            "Date": "22 Août 2024",
+            "Saint": "Fabrice",
+            "lever": "06:22",
+            "coucher": "22:16",
+            "lune": "Pleine Lune"
+        },
+        "Demain": {
+            "Date": "23 Août 2024",
+            "Saint": "Rose de Lima",
+            "lever": "07:22",
+            "coucher": "21:16",
+            "lune": "gibbeuse décroissante"
+        }
     }
 }
