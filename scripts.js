@@ -229,21 +229,47 @@ if (window.innerHeight > window.innerWidth){
         Affichage(donnees)}
 
 function Affichage(donnees){
-    document.getElementById("Belier").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Bélier : </span>'+donnees.Horoscope.Belier
-    document.getElementById("Taureau").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Taureau : </span>'+donnees.Horoscope.Taureau
-    document.getElementById("Gemeaux").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Gémeaux : </span>'+donnees.Horoscope.Gemeaux
-    document.getElementById("Cancer").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Cancer : </span>'+donnees.Horoscope.Cancer
-    document.getElementById("Lion").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Lion : </span>'+donnees.Horoscope.Lion
-    document.getElementById("Vierge").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Vierge : </span>'+donnees.Horoscope.Vierge
-    document.getElementById("Capricorne").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Capricorne : </span>'+donnees.Horoscope.Capricorne
-    document.getElementById("Verseau").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Verseau : </span>'+donnees.Horoscope.Verseau
-    document.getElementById("Poissons").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Poissons : </span>'+donnees.Horoscope.Poissons
-    document.getElementById("Balance").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Balance : </span>'+donnees.Horoscope.Balance
-    document.getElementById("Scorpion").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Scorpion : </span>'+donnees.Horoscope.Scorpion
-    document.getElementById("Sagittaire").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Sagittaire : </span>'+donnees.Horoscope.Sagittaire
-    document.getElementById("Date").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">'+donnees.Ephemeride.Date+'</span>'
-    document.getElementById("Saint").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Saint(e) </span>'+donnees.Ephemeride.Saint
-    document.getElementById("Lever").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Lever du Soleil : </span>'+donnees.Ephemeride.Lever
-    document.getElementById("Coucher").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Coucher du Soleil : </span>'+donnees.Ephemeride.Coucher
-    document.getElementById("Lune").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Phase de la Lune : </span>'+donnees.Ephemeride.Lune
+    date = new Date
+    jour = date.getDate()
+    if (donnees.jour === jour.toString){
+    document.getElementById("Belier").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Bélier : </span>'+donnees.Horoscope.Aujourdhui.Belier;
+    document.getElementById("Taureau").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Taureau : </span>'+donnees.Horoscope.Aujourdhui.Taureau;
+    document.getElementById("Gemeaux").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Gémeaux : </span>'+donnees.Horoscope.Aujourdhui.Gemeaux;
+    document.getElementById("Cancer").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Cancer : </span>'+donnees.Horoscope.Aujourdhui.Cancer;
+    document.getElementById("Lion").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Lion : </span>'+donnees.Horoscope.Aujourdhui.Lion;
+    document.getElementById("Vierge").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Vierge : </span>'+donnees.Horoscope.Aujourdhui.Vierge;
+    document.getElementById("Capricorne").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Capricorne : </span>'+donnees.Horoscope.Aujourdhui.Capricorne;
+    document.getElementById("Verseau").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Verseau : </span>'+donnees.Horoscope.Aujourdhui.Verseau;
+    document.getElementById("Poissons").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Poissons : </span>'+donnees.Horoscope.Aujourdhui.Poissons;
+    document.getElementById("Balance").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Balance : </span>'+donnees.Horoscope.Aujourdhui.Balance;
+    document.getElementById("Scorpion").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Scorpion : </span>'+donnees.Horoscope.Aujourdhui.Scorpion;
+    document.getElementById("Sagittaire").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Sagittaire : </span>'+donnees.Horoscope.Aujourdhui.Sagittaire;
+    document.getElementById("Date").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">'+donnees.Ephemeride.Aujourdhui.Date+'</span>';
+    document.getElementById("Saint").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Saint(e) </span>'+donnees.Ephemeride.Aujourdhui.Saint;
+    document.getElementById("Lever").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Lever du Soleil : </span>'+donnees.Ephemeride.Aujourdhui.Lever;
+    document.getElementById("Coucher").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Coucher du Soleil : </span>'+donnees.Ephemeride.Aujourdhui.Coucher;
+    document.getElementById("Lune").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Phase de la Lune : </span>'+donnees.Ephemeride.Aujourdhui.Lune;
+}
+    else{
+    document.getElementById("Belier").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Bélier : </span>'+donnees.Horoscope.Demain.Belier;
+    document.getElementById("Taureau").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Taureau : </span>'+donnees.Horoscope.Demain.Taureau;
+    document.getElementById("Gemeaux").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Gémeaux : </span>'+donnees.Horoscope.Demain.Gemeaux;
+    document.getElementById("Cancer").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Cancer : </span>'+donnees.Horoscope.Demain.Cancer;
+    document.getElementById("Lion").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Lion : </span>'+donnees.Horoscope.Demain.Lion;
+    document.getElementById("Vierge").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Vierge : </span>'+donnees.Horoscope.Demain.Vierge;
+    document.getElementById("Capricorne").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Capricorne : </span>'+donnees.Horoscope.Demain.Capricorne;
+    document.getElementById("Verseau").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Verseau : </span>'+donnees.Horoscope.Demain.Verseau;
+    document.getElementById("Poissons").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Poissons : </span>'+donnees.Horoscope.Demain.Poissons;
+    document.getElementById("Balance").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Balance : </span>'+donnees.Horoscope.Demain.Balance;
+    document.getElementById("Scorpion").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Scorpion : </span>'+donnees.Horoscope.Demain.Scorpion;
+    document.getElementById("Sagittaire").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Sagittaire : </span>'+donnees.Horoscope.Demain.Sagittaire;
+    document.getElementById("Date").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">'+donnees.Ephemeride.Demain.Date+'</span>';
+    document.getElementById("Saint").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Saint(e) </span>'+donnees.Ephemeride.Demain.Saint;
+    document.getElementById("Lever").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Lever du Soleil : </span>'+donnees.Ephemeride.Demain.Lever;
+    document.getElementById("Coucher").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Coucher du Soleil : </span>'+donnees.Ephemeride.Demain.Coucher;
+    document.getElementById("Lune").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Phase de la Lune : </span>'+donnees.Ephemeride.Demain.Lune;
+
+    }
+
+
 }

@@ -1,7 +1,7 @@
 {
     "jour": "22",
     "Horoscope": {
-        "Aujourd'hui": {
+        "Aujourdhui": {
             "Bélier": " 1",
             "Taureau": " 2",
             "Gémeaux": " 3",
@@ -33,7 +33,7 @@
         }
     },
     "Ephemeride": {
-        "Aujourd'hui": {
+        "Aujourdhui": {
             "Date": "22 Août 2024",
             "Saint": "Fabrice",
             "lever": "06:22",
