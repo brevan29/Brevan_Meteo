@@ -149,7 +149,7 @@
     grid-template-columns: 65% 35%;
 }
 .Prévisions img{
-        grid-column: 1;
+    grid-column: 1;
 }
 .Write{
     border: 0px;
@@ -160,12 +160,23 @@
     align-items: center;
     padding-right: 30%;
 }
-
+.date{
+    margin: 0%;
+    border: 0;
+    grid-row: 1;
+    grid-column: span 2;
+    width : 100%;
+    border-width: 0;
+    p{
+        margin: 0%
+    }
+}
 #dmat{
     grid-row: 2;
     grid-column: 1;
     justify-content: center;
     display: grid;
+    grid-template-rows: 8% 92%;
 }
 #dapm{
     grid-row: 2;
@@ -184,6 +195,7 @@
     grid-column: 1;
     justify-content: center;
     display: grid;
+    grid-template-rows: 8% 92%;
 }
 #adapm{
     grid-row: 3;
@@ -202,6 +214,7 @@
     grid-column: 1;
     justify-content: center;
     display: grid;
+    grid-template-rows: 8% 92%;
 }
 #ddapm{
     grid-row: 4;
@@ -265,9 +278,9 @@
 }
 
 @media only screen and (orientation: portrait) {
-    .Prévisions{grid-template-columns: auto;}
+    .Prévisions{grid-template-columns: 10% auto;}
     .Write{grid-row: 2;
-        grid-column: 1;}
+        grid-column: 2;}
     .Write p{
         font-size: 15px;
     }

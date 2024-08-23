@@ -116,10 +116,12 @@ function Traitement(previ){
     let Soir = document.getElementById("ImgSoir");
     let Txt = document.getElementsByClassName("txt-mto")
     let AEcrire=document.getElementsByClassName('Write')
+    let dates = document.getElementsByClassName('date')
     for(i=0; i<quands.length; i++){
         //Récupération de la prévision le jour.
         if (i<3){
             let previprécise = previ.demain;
+            dates[0].innerHTML = '<p><-- '+previprécise.jour+' --></p>'
             if (quands[i].slice(1)=== "mat"){
                 let previplusprécise = previprécise.matin;
                 const Mto = previplusprécise.Temps
@@ -156,8 +158,9 @@ function Traitement(previ){
         }
         else if (i>=3 && i<6){
             let previprécise = previ.aprèsdemain;
+            dates[1].innerHTML = '<p><-- '+previprécise.jour+' --></p>'
             if (quands[i].slice(2)=== "mat"){
-                let previplusprécise = previprécise.matin;
+                let previplusprécise = previprécise.matin;                
                 const Mto = previplusprécise.Temps
                 minidiv[i].src = './Images/'+Mto+'.png'
                 AEcrire[i].innerHTML = '<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
@@ -180,6 +183,7 @@ function Traitement(previ){
         }
         else if (i>=6){
             let previprécise = previ.aprèsaprèsdemain;
+            dates[2].innerHTML = '<p><-- '+previprécise.jour+' --></p>'
             if (quands[i].slice(2)=== "mat"){
                 let previplusprécise = previprécise.matin;
                 const Mto = previplusprécise.Temps
@@ -246,14 +250,14 @@ function Affichage(donnees){
     document.getElementById("Sagittaire").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Sagittaire : </span>'+donnees.Horoscope.Aujourdhui.Sagittaire;
     document.getElementById("Date").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">'+donnees.Ephemeride.Aujourdhui.Date+'</span>';
     document.getElementById("Saint").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Saint(e) </span>'+donnees.Ephemeride.Aujourdhui.Saint;
-    document.getElementById("Lever").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Lever du Soleil : </span>'+donnees.Ephemeride.Aujourdhui.Lever;
-    document.getElementById("Coucher").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Coucher du Soleil : </span>'+donnees.Ephemeride.Aujourdhui.Coucher;
-    document.getElementById("Lune").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Phase de la Lune : </span>'+donnees.Ephemeride.Aujourdhui.Lune;
+    document.getElementById("Lever").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Lever du Soleil : </span>'+donnees.Ephemeride.Aujourdhui.lever;
+    document.getElementById("Coucher").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Coucher du Soleil : </span>'+donnees.Ephemeride.Aujourdhui.coucher;
+    document.getElementById("Lune").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Phase de la Lune : </span>'+donnees.Ephemeride.Aujourdhui.lune;
 }
     else{
-    document.getElementById("Belier").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Bélier : </span>'+donnees.Horoscope.Demain.Belier;
+    document.getElementById("Belier").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Bélier : </span>'+donnees.Horoscope.Demain.Bélier;
     document.getElementById("Taureau").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Taureau : </span>'+donnees.Horoscope.Demain.Taureau;
-    document.getElementById("Gemeaux").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Gémeaux : </span>'+donnees.Horoscope.Demain.Gemeaux;
+    document.getElementById("Gemeaux").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Gémeaux : </span>'+donnees.Horoscope.Demain.Gémeaux;
     document.getElementById("Cancer").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Cancer : </span>'+donnees.Horoscope.Demain.Cancer;
     document.getElementById("Lion").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Lion : </span>'+donnees.Horoscope.Demain.Lion;
     document.getElementById("Vierge").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Vierge : </span>'+donnees.Horoscope.Demain.Vierge;
@@ -265,11 +269,8 @@ function Affichage(donnees){
     document.getElementById("Sagittaire").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Sagittaire : </span>'+donnees.Horoscope.Demain.Sagittaire;
     document.getElementById("Date").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">'+donnees.Ephemeride.Demain.Date+'</span>';
     document.getElementById("Saint").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Saint(e) </span>'+donnees.Ephemeride.Demain.Saint;
-    document.getElementById("Lever").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Lever du Soleil : </span>'+donnees.Ephemeride.Demain.Lever;
-    document.getElementById("Coucher").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Coucher du Soleil : </span>'+donnees.Ephemeride.Demain.Coucher;
-    document.getElementById("Lune").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Phase de la Lune : </span>'+donnees.Ephemeride.Demain.Lune;
-
+    document.getElementById("Lever").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Lever du Soleil : </span>'+donnees.Ephemeride.Demain.lever;
+    document.getElementById("Coucher").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Coucher du Soleil : </span>'+donnees.Ephemeride.Demain.coucher;
+    document.getElementById("Lune").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Phase de la Lune : </span>'+donnees.Ephemeride.Demain.lune;
     }
-
-
 }

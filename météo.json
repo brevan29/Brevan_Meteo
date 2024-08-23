@@ -1,7 +1,7 @@
 {
     "date":"22",
     "aujourd'hui":{
-        "jour":26,
+        "jour":"Jeudi 22 Août",
         "matin":{"Temps":"Eclaircies",
                  "Température":16,
                  "Vent":null},
@@ -13,7 +13,7 @@
                  "Vent":null}
     },
     "demain":{
-        "jour":26,
+        "jour":"Vendredi 23 Août",
         "matin":{"Temps":"Eclaircies",
                  "Température":16,
                  "Vent":null},
@@ -26,7 +26,7 @@
     },
     
     "aprèsdemain":{
-        "jour":27,
+        "jour":"Samedi 24 Août",
         "matin":{"Temps":"Averses",
                  "Température":13,
                  "Vent":null},
@@ -39,7 +39,7 @@
     },
 
     "aprèsaprèsdemain":{
-        "jour":28,
+        "jour":"Dimanche 25 Août",
         "matin":{"Temps":"Nuages",
                  "Température":11,
                  "Vent":null},
