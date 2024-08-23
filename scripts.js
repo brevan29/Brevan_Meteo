@@ -107,8 +107,14 @@ request.responseType = "json";
 request.send();
 request.onload = function () {
     var previ = request.response;
-    Traitement(previ)}
+    Traitementp1(previ)}
 
+function Traitementp1(previ){
+    let date = new Date
+    let jour = date.getDate()
+    if (previ.date === jour.toString()){Traitementp2(previ)}
+    else{Traitement(previ)}
+}
 function Traitement(previ){
     let minidiv = document.getElementsByClassName('image');
     let Matin = document.getElementById("ImgMatin");
@@ -208,6 +214,106 @@ function Traitement(previ){
         }
     };}
 
+
+function Traitementp2(previ){
+    let minidiv = document.getElementsByClassName('image');
+    let Matin = document.getElementById("ImgMatin");
+    let Aprem = document.getElementById("ImgApm");
+    let Soir = document.getElementById("ImgSoir");
+    let Txt = document.getElementsByClassName("txt-mto")
+    let AEcrire=document.getElementsByClassName('Write')
+    let dates = document.getElementsByClassName('date')
+    for(i=0; i<quands.length; i++){
+        //Récupération de la prévision le jour.
+        if (i<3){
+            let previprécise = previ.aujourdhui;
+            dates[0].innerHTML = '<p><-- '+previprécise.jour+' --></p>'
+            if (quands[i].slice(1)=== "mat"){
+                let previplusprécise = previprécise.matin;
+                const Mto = previplusprécise.Temps
+                minidiv[i].src = './Images/'+Mto+'.png'
+                Matin.src = './Images/'+Mto+'.png'
+                AEcrire[0].innerHTML = "<p>"+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
+                Txt[0].innerHTML = '<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
+                if (Number.isInteger(previplusprécise.Vent)) {
+                    Txt[0].innerHTML='<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'; 
+                    AEcrire[0].innerHTML = '<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
+            }
+            else if (quands[i].slice(1)=== "apm"){
+                let previplusprécise = previprécise.aprèsmidi;
+                const Mto = previplusprécise.Temps
+                minidiv[i].src = './Images/'+Mto+'.png'
+                Aprem.src = './Images/'+Mto+'.png'
+                Txt[1].innerHTML = '<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C</p>'
+                AEcrire[1].innerHTML = '<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
+                if (Number.isInteger(previplusprécise.Vent)) 
+                    {Txt[1].innerHTML='<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>';
+                    AEcrire[1].innerHTML = '<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
+            }
+            else if (quands[i].slice(1)=== "soi"){
+                let previplusprécise = previprécise.soir;
+                const Mto = previplusprécise.Temps
+                minidiv[i].src = './Images/'+Mto+'.png'
+                Soir.src = './Images/'+Mto+'.png'
+                Txt[2].innerHTML = '<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
+                AEcrire[2].innerHTML = '<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
+                if (Number.isInteger(previplusprécise.Vent)) {
+                    Txt[2].innerHTML='<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>';
+                    AEcrire[2].innerHTML = '<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
+            }
+        }
+        else if (i>=3 && i<6){
+            let previprécise = previ.demain;
+            dates[1].innerHTML = '<p><-- '+previprécise.jour+' --></p>'
+            if (quands[i].slice(2)=== "mat"){
+                let previplusprécise = previprécise.matin;                
+                const Mto = previplusprécise.Temps
+                minidiv[i].src = './Images/'+Mto+'.png'
+                AEcrire[i].innerHTML = '<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
+                if (Number.isInteger(previplusprécise.Vent)) {AEcrire[i].innerHTML = '<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
+            }
+            else if (quands[i].slice(2)=== "apm"){
+                let previplusprécise = previprécise.aprèsmidi;
+                const Mto = previplusprécise.Temps
+                minidiv[i].src = './Images/'+Mto+'.png'
+                AEcrire[i].innerHTML = '<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
+                if (Number.isInteger(previplusprécise.Vent)) {AEcrire[i].innerHTML = '<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
+            }
+            else if (quands[i].slice(2)=== "soi"){
+                let previplusprécise = previprécise.soir;
+                const Mto = previplusprécise.Temps
+                minidiv[i].src = './Images/'+Mto+'.png'
+                AEcrire[i].innerHTML = '<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
+                if (Number.isInteger(previplusprécise.Vent)) {AEcrire[i].innerHTML = '<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
+            }
+        }
+        else if (i>=6){
+            let previprécise = previ.aprèsdemain;
+            dates[2].innerHTML = '<p><-- '+previprécise.jour+' --></p>'
+            if (quands[i].slice(2)=== "mat"){
+                let previplusprécise = previprécise.matin;
+                const Mto = previplusprécise.Temps
+                minidiv[i].src = './Images/'+Mto+'.png'
+                AEcrire[i].innerHTML = '<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
+                if (Number.isInteger(previplusprécise.Vent)) {AEcrire[i].innerHTML = '<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
+            }
+            else if (quands[i].slice(2)=== "apm"){
+                let previplusprécise = previprécise.aprèsmidi;
+                const Mto = previplusprécise.Temps
+                minidiv[i].src = './Images/'+Mto+'.png'
+                AEcrire[i].innerHTML = '<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
+                if (Number.isInteger(previplusprécise.Vent)) {AEcrire[i].innerHTML = '<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
+            }
+            else if (quands[i].slice(2)=== "soi"){
+                let previplusprécise = previprécise.soir;
+                const Mto = previplusprécise.Temps
+                minidiv[i].src = './Images/'+Mto+'.png'
+                AEcrire[i].innerHTML = '<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
+                if (Number.isInteger(previplusprécise.Vent)) {AEcrire[i].innerHTML = '<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
+            }
+        }
+    };}
+
 if (window.innerHeight > window.innerWidth){
     let enplus = document.getElementsByClassName('.enplus')
     for (i=0; i<enplus.length; i++){
@@ -235,7 +341,7 @@ if (window.innerHeight > window.innerWidth){
 function Affichage(donnees){
     date = new Date
     jour = date.getDate()
-    if (donnees.jour === jour.toString){
+    if (donnees.jour === jour.toString()){
     document.getElementById("Belier").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Bélier : </span>'+donnees.Horoscope.Aujourdhui.Belier;
     document.getElementById("Taureau").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Taureau : </span>'+donnees.Horoscope.Aujourdhui.Taureau;
     document.getElementById("Gemeaux").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Gémeaux : </span>'+donnees.Horoscope.Aujourdhui.Gemeaux;
