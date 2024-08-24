@@ -283,9 +283,9 @@
     .Write{grid-row: 3;
     grid-column: 1;
     padding-right: 0%;
-    justify-self: center;}
+    justify-self: center;
+    margin-top: -30px;}
     .Write p{
-        font-size: 15px;
         justify-items: center;
         text-align: center;
         margin: 0%;
