@@ -6,7 +6,6 @@ function changervisibilite(elm){
         AChanger.style.visibility='visible';}
         Actif=AChanger;
 }
-alert(window.navigator.userAgent);
 let Actif2 = 'Horoscope'
 function changervisibiliteTenplus(elm){
     if (document.getElementById(elm).style.visibility==='hidden'){
@@ -138,7 +137,7 @@ function Traitement(previ){
                 Txt[0].innerHTML = '<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
                 if (Number.isInteger(previplusprécise.Vent)) {
                     Txt[0].innerHTML='<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'; 
-                    AEcrire[0].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
+                    AEcrire[0].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
             }
             else if (quands[i].slice(1)=== "apm"){
                 let previplusprécise = previprécise.aprèsmidi;
@@ -146,10 +145,10 @@ function Traitement(previ){
                 minidiv[i].src = './Images/'+Mto+'.png'
                 Aprem.src = './Images/'+Mto+'.png'
                 Txt[1].innerHTML = '<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C</p>'
-                AEcrire[1].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
+                AEcrire[1].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
                 if (Number.isInteger(previplusprécise.Vent)) 
                     {Txt[1].innerHTML='<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>';
-                    AEcrire[1].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
+                    AEcrire[1].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
             }
             else if (quands[i].slice(1)=== "soi"){
                 let previplusprécise = previprécise.soir;
@@ -157,10 +156,10 @@ function Traitement(previ){
                 minidiv[i].src = './Images/'+Mto+'.png'
                 Soir.src = './Images/'+Mto+'.png'
                 Txt[2].innerHTML = '<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
-                AEcrire[2].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
+                AEcrire[2].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
                 if (Number.isInteger(previplusprécise.Vent)) {
                     Txt[2].innerHTML='<p>'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>';
-                    AEcrire[2].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
+                    AEcrire[2].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
             }
         }
         else if (i>=3 && i<6){
@@ -170,22 +169,22 @@ function Traitement(previ){
                 let previplusprécise = previprécise.matin;                
                 const Mto = previplusprécise.Temps
                 minidiv[i].src = './Images/'+Mto+'.png'
-                AEcrire[i].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
-                if (Number.isInteger(previplusprécise.Vent)) {AEcrire[i].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
+                AEcrire[i].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
+                if (Number.isInteger(previplusprécise.Vent)) {AEcrire[i].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
             }
             else if (quands[i].slice(2)=== "apm"){
                 let previplusprécise = previprécise.aprèsmidi;
                 const Mto = previplusprécise.Temps
                 minidiv[i].src = './Images/'+Mto+'.png'
-                AEcrire[i].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
-                if (Number.isInteger(previplusprécise.Vent)) {AEcrire[i].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
+                AEcrire[i].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
+                if (Number.isInteger(previplusprécise.Vent)) {AEcrire[i].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
             }
             else if (quands[i].slice(2)=== "soi"){
                 let previplusprécise = previprécise.soir;
                 const Mto = previplusprécise.Temps
                 minidiv[i].src = './Images/'+Mto+'.png'
-                AEcrire[i].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
-                if (Number.isInteger(previplusprécise.Vent)) {AEcrire[i].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
+                AEcrire[i].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
+                if (Number.isInteger(previplusprécise.Vent)) {AEcrire[i].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
             }
         }
         else if (i>=6){
@@ -195,22 +194,22 @@ function Traitement(previ){
                 let previplusprécise = previprécise.matin;
                 const Mto = previplusprécise.Temps
                 minidiv[i].src = './Images/'+Mto+'.png'
-                AEcrire[i].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
-                if (Number.isInteger(previplusprécise.Vent)) {AEcrire[i].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
+                AEcrire[i].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
+                if (Number.isInteger(previplusprécise.Vent)) {AEcrire[i].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
             }
             else if (quands[i].slice(2)=== "apm"){
                 let previplusprécise = previprécise.aprèsmidi;
                 const Mto = previplusprécise.Temps
                 minidiv[i].src = './Images/'+Mto+'.png'
-                AEcrire[i].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
-                if (Number.isInteger(previplusprécise.Vent)) {AEcrire[i].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
+                AEcrire[i].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
+                if (Number.isInteger(previplusprécise.Vent)) {AEcrire[i].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
             }
             else if (quands[i].slice(2)=== "soi"){
                 let previplusprécise = previprécise.soir;
                 const Mto = previplusprécise.Temps
                 minidiv[i].src = './Images/'+Mto+'.png'
-                AEcrire[i].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
-                if (Number.isInteger(previplusprécise.Vent)) {AEcrire[i].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
+                AEcrire[i].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
+                if (Number.isInteger(previplusprécise.Vent)) {AEcrire[i].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
             }
         }
     };}
@@ -235,32 +234,32 @@ function Traitementp2(previ){
                 minidiv[i].src = './Images/'+Mto+'.png'
                 Matin.src = './Images/'+Mto+'.png'
                 AEcrire[0].innerHTML = "<p>"+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
-                Txt[0].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
+                Txt[0].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
                 if (Number.isInteger(previplusprécise.Vent)) {
-                    Txt[0].innerHTML='<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'; 
-                    AEcrire[0].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
+                    Txt[0].innerHTML='<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'; 
+                    AEcrire[0].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
             }
             else if (quands[i].slice(1)=== "apm"){
                 let previplusprécise = previprécise.aprèsmidi;
                 const Mto = previplusprécise.Temps
                 minidiv[i].src = './Images/'+Mto+'.png'
                 Aprem.src = './Images/'+Mto+'.png'
-                Txt[1].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C</p>'
-                AEcrire[1].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
+                Txt[1].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C</p>'
+                AEcrire[1].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
                 if (Number.isInteger(previplusprécise.Vent)) 
-                    {Txt[1].innerHTML='<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>';
-                    AEcrire[1].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
+                    {Txt[1].innerHTML='<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>';
+                    AEcrire[1].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
             }
             else if (quands[i].slice(1)=== "soi"){
                 let previplusprécise = previprécise.soir;
                 const Mto = previplusprécise.Temps
                 minidiv[i].src = './Images/'+Mto+'.png'
                 Soir.src = './Images/'+Mto+'.png'
-                Txt[2].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
-                AEcrire[2].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
+                Txt[2].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
+                AEcrire[2].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
                 if (Number.isInteger(previplusprécise.Vent)) {
-                    Txt[2].innerHTML='<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>';
-                    AEcrire[2].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
+                    Txt[2].innerHTML='<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>';
+                    AEcrire[2].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
             }
         }
         else if (i>=3 && i<6){
@@ -270,22 +269,22 @@ function Traitementp2(previ){
                 let previplusprécise = previprécise.matin;                
                 const Mto = previplusprécise.Temps
                 minidiv[i].src = './Images/'+Mto+'.png'
-                AEcrire[i].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
-                if (Number.isInteger(previplusprécise.Vent)) {AEcrire[i].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
+                AEcrire[i].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
+                if (Number.isInteger(previplusprécise.Vent)) {AEcrire[i].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
             }
             else if (quands[i].slice(2)=== "apm"){
                 let previplusprécise = previprécise.aprèsmidi;
                 const Mto = previplusprécise.Temps
                 minidiv[i].src = './Images/'+Mto+'.png'
-                AEcrire[i].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
-                if (Number.isInteger(previplusprécise.Vent)) {AEcrire[i].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
+                AEcrire[i].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
+                if (Number.isInteger(previplusprécise.Vent)) {AEcrire[i].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
             }
             else if (quands[i].slice(2)=== "soi"){
                 let previplusprécise = previprécise.soir;
                 const Mto = previplusprécise.Temps
                 minidiv[i].src = './Images/'+Mto+'.png'
-                AEcrire[i].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
-                if (Number.isInteger(previplusprécise.Vent)) {AEcrire[i].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
+                AEcrire[i].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
+                if (Number.isInteger(previplusprécise.Vent)) {AEcrire[i].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
             }
         }
         else if (i>=6){
@@ -295,22 +294,22 @@ function Traitementp2(previ){
                 let previplusprécise = previprécise.matin;
                 const Mto = previplusprécise.Temps
                 minidiv[i].src = './Images/'+Mto+'.png'
-                AEcrire[i].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
-                if (Number.isInteger(previplusprécise.Vent)) {AEcrire[i].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
+                AEcrire[i].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
+                if (Number.isInteger(previplusprécise.Vent)) {AEcrire[i].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
             }
             else if (quands[i].slice(2)=== "apm"){
                 let previplusprécise = previprécise.aprèsmidi;
                 const Mto = previplusprécise.Temps
                 minidiv[i].src = './Images/'+Mto+'.png'
-                AEcrire[i].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
-                if (Number.isInteger(previplusprécise.Vent)) {AEcrire[i].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
+                AEcrire[i].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
+                if (Number.isInteger(previplusprécise.Vent)) {AEcrire[i].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
             }
             else if (quands[i].slice(2)=== "soi"){
                 let previplusprécise = previprécise.soir;
                 const Mto = previplusprécise.Temps
                 minidiv[i].src = './Images/'+Mto+'.png'
-                AEcrire[i].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
-                if (Number.isInteger(previplusprécise.Vent)) {AEcrire[i].innerHTML = '<p style="font-size:0.9rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
+                AEcrire[i].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br></p>'
+                if (Number.isInteger(previplusprécise.Vent)) {AEcrire[i].innerHTML = '<p style="font-size:1rem">'+Mto+'<br>'+previplusprécise.Température.toString()+'°C<br>'+previplusprécise.Vent.toString()+'km/h</p>'}
             }
         }
     };}
@@ -322,7 +321,7 @@ if (window.innerHeight > window.innerWidth){
     }
     let ecrire = document.getElementsByClassName('Write')
     for (i=0; i<ecrire.length; i++){
-        ecrire[i].style.fontSize = '0.9rem'
+        ecrire[i].style.fontSize = '1rem'
     }
     let gauche= document.getElementById('gauche')
     gauche.style.gridArea = "4 / 1 / 4 /span 2"
