@@ -2,6 +2,7 @@
     --violet-brevan: rgb(119,26,120);
     --violet-brevan-clair: rgba(119,26,120,0.75);
     --violet-brevan-fonce: rgb(91,19,92);
+    -webkit-text-size-adjust: 100%;
   }
 /*Entête de la page et ses sous-divs*/
 #entete{

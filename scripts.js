@@ -6,6 +6,7 @@ function changervisibilite(elm){
         AChanger.style.visibility='visible';}
         Actif=AChanger;
 }
+alert(window.navigator.userAgent);
 let Actif2 = 'Horoscope'
 function changervisibiliteTenplus(elm){
     if (document.getElementById(elm).style.visibility==='hidden'){
