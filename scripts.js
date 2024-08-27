@@ -341,9 +341,9 @@ function Affichage(donnees){
     date = new Date
     jour = date.getDate()
     if (donnees.jour === jour.toString()){
-    document.getElementById("Belier").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Bélier : </span>'+donnees.Horoscope.Aujourdhui.Belier;
+    document.getElementById("Belier").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Bélier : </span>'+donnees.Horoscope.Aujourdhui.Bélier;
     document.getElementById("Taureau").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Taureau : </span>'+donnees.Horoscope.Aujourdhui.Taureau;
-    document.getElementById("Gemeaux").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Gémeaux : </span>'+donnees.Horoscope.Aujourdhui.Gemeaux;
+    document.getElementById("Gemeaux").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Gémeaux : </span>'+donnees.Horoscope.Aujourdhui.Gémeaux;
     document.getElementById("Cancer").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Cancer : </span>'+donnees.Horoscope.Aujourdhui.Cancer;
     document.getElementById("Lion").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Lion : </span>'+donnees.Horoscope.Aujourdhui.Lion;
     document.getElementById("Vierge").innerHTML = '<span style="font-weight: bold; color: var(--violet-brevan-fonce);">Vierge : </span>'+donnees.Horoscope.Aujourdhui.Vierge;
