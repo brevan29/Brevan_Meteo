@@ -1,51 +1,52 @@
 {
-    "jour": "22",
+    "jour": "27",
     "Horoscope": {
         "Aujourdhui": {
-            "Bélier": " 1",
-            "Taureau": " 2",
-            "Gémeaux": " 3",
-            "Cancer": " 4",
-            "Lion": " 5",
-            "Vierge": " 6",
-            "Balance": " 7",
-            "Scorpion": " 8",
-            "Furet": " ",
-            "Sagittaire": " 9",
-            "Capricorne": " 10",
-            "Verseau": " 11",
-            "Poissons": " 12"
+            "Bélier": " Vous prendrez une douche avec Oussama Ammar. Il vous parlera de crypto-monnaies pendant que vous lui frottez le dos.",
+            "Taureau": " Crise de tachycardie cette semaine en raison de votre consommation excessive de « Scoubifizz » de Lutti (qui contiennent 82% d’amphétamines).",
+            "Gémeaux": " Vous mettrez des socquettes de couleurs différentes pour affirmer votre personnalité ambivalente de Gémeaux. Vous vous ferez des ennemis.",
+            "Cancer": " Vous regarderez 600 vidéos tiktok au lieu de prendre des antidépresseurs. Attention.",
+            "Lion": " Il y aura un vote près de chez vous pour élire « le plus con du quartier ». Tâchez de ne pas être élu(e) cette fois-ci.",
+            "Vierge": " Si c’est la semaine de votre anniversaire, vous recevrez un Premier ministre en kit à monter vous-même.",
+            "Balance": " Vous devrez faire des courses de rentrée compliquées avec un classeur et 64 pochettes plastiques, cinq cahiers grands carreaux A4, et des stabylos de couleur saumon ou taupe.",
+            "Scorpion": " Si vous mourez cette semaine, vous vous réincarnerez en jeu à gratter (probablement un Banco perdant). Attention.",
+            "Furet": " Vous bénéficierez d’une réduction de 49% sur un abonnement à Nord VPN avec le code « Macron Démission ».",
+            "Sagittaire": " Vous aurez une dernière amourette de vacances avec Stéphano, le gérant de la pizzeria « Il Vesuvio ». Il vous brisera le cœur.",
+            "Capricorne": " Tous les gens autour de vous se mettront à manger la bouche ouverte. Restez calme.&nbsp;",
+            "Verseau": " Vous essaierez de vous convaincre de regarder les jeux paralympiques pour avoir bonne conscience. Sans succès.",
+            "Poissons": " Vous passerez 70% de votre temps éveillé à râler et souffler d’exaspération (principalement par le nez). Allez au diable."
         },
         "Demain": {
-            "Bélier": " Vous observerez les nuages pour y chercher des formes, mais vous n’y verrez que le visage satisfait d’Emmanuel Macron.",
-            "Taureau": " Votre N+1 reviendra de vacances avec un petit cadeau pour vous : la variole du singe.",
-            "Gémeaux": " Le fantôme d’Alain Delon viendra vous rendre visite pour vous dire à quel point Alain Delon était merveilleux.",
-            "Cancer": " Un chat roux jaillira d’un rebord de fenêtre pour vous griffer la nuque. Attention aux rebords de fenêtre.",
-            "Lion": " Vous voudrez lire un article sur internet mais il sera réservé aux abonnés. Bien fait !",
-            "Vierge": " Toute cette semaine tournera autour de la transpiration. Remettez-vous en question.",
-            "Balance": " Vous devrez ramener en voiture Elisabeth Lévy qui sera trop ivre pour rentrer. Elle vomira sur vos sièges, et ne s’excusera pas.",
-            "Scorpion": " Vous serez mise(e) sous vide, et entreposé(e) au réfrigérateur jusqu’au mois d’octobre.",
-            "Furet": " Vous cambriolerez l’appartement d’un footballer pendant qu’il est à l’étranger. Bravo !",
-            "Sagittaire": " Si vous êtes à la plage, Xavier Bertrand vous volera vos chaussures pendant que vous vous baignez. Il les cache sous son lit pour les sentir quand il angoisse.",
-            "Capricorne": " Vous aurez une chanson de Zaho de Sagazan dans la tête pendant 96 heures. Ne vous défenestrez pas.",
-            "Verseau": " On vous sommera d’aller « vous faire cuire le cul ». Vous n’aurez pas assez de répartie pour répondre à cette attaque.",
-            "Poissons": " Vous tracerez un pentacle sur votre parquet pour invoquer un démon. Cela fonctionnera et il vous accordera un prêt à taux zéro en échange de 200 âmes. A vous de voir."
-        }
+            "Bélier": " Vous prendrez une douche avec Oussama Ammar. Il vous parlera de crypto-monnaies pendant que vous lui frottez le dos.",
+            "Taureau": " Crise de tachycardie cette semaine en raison de votre consommation excessive de « Scoubifizz » de Lutti (qui contiennent 82% d’amphétamines).",
+            "Gémeaux": " Vous mettrez des socquettes de couleurs différentes pour affirmer votre personnalité ambivalente de Gémeaux. Vous vous ferez des ennemis.",
+            "Cancer": " Vous regarderez 600 vidéos tiktok au lieu de prendre des antidépresseurs. Attention.",
+            "Lion": " Il y aura un vote près de chez vous pour élire « le plus con du quartier ». Tâchez de ne pas être élu(e) cette fois-ci.",
+            "Vierge": " Si c’est la semaine de votre anniversaire, vous recevrez un Premier ministre en kit à monter vous-même.",
+            "Balance": " Vous devrez faire des courses de rentrée compliquées avec un classeur et 64 pochettes plastiques, cinq cahiers grands carreaux A4, et des stabylos de couleur saumon ou taupe.",
+            "Scorpion": " Si vous mourez cette semaine, vous vous réincarnerez en jeu à gratter (probablement un Banco perdant). Attention.",
+            "Furet": " Vous bénéficierez d’une réduction de 49% sur un abonnement à Nord VPN avec le code « Macron Démission ».",
+            "Sagittaire": " Vous aurez une dernière amourette de vacances avec Stéphano, le gérant de la pizzeria « Il Vesuvio ». Il vous brisera le cœur.",
+            "Capricorne": " Tous les gens autour de vous se mettront à manger la bouche ouverte. Restez calme.&nbsp;",
+            "Verseau": " Vous essaierez de vous convaincre de regarder les jeux paralympiques pour avoir bonne conscience. Sans succès.",
+            "Poissons": " Vous passerez 70% de votre temps éveillé à râler et souffler d’exaspération (principalement par le nez). Allez au diable."
+        },
+        "date_dernier": "2024-08-27"
     },
     "Ephemeride": {
         "Aujourdhui": {
-            "Date": "22 Août 2024",
-            "Saint": "Fabrice",
-            "lever": "06:22",
-            "coucher": "22:16",
-            "lune": "Pleine Lune"
+            "Date": "27 Août 2024",
+            "Saint": "Monique",
+            "lever": "07:29",
+            "coucher": "21:06",
+            "lune": "dernier quartier"
         },
         "Demain": {
-            "Date": "23 Août 2024",
-            "Saint": "Rose de Lima",
-            "lever": "07:22",
-            "coucher": "21:16",
-            "lune": "gibbeuse décroissante"
+            "Date": "28 Août 2024",
+            "Saint": "Augustin",
+            "lever": "07:29",
+            "coucher": "21:06",
+            "lune": "dernier quartier"
         }
     }
 }
