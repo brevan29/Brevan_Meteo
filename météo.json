@@ -2,17 +2,17 @@
     "aujourdhui": {
         "jour": "Mercredi 28 Août",
         "matin": {
-            "Temps": " Nuages",
+            "Temps": "Nuages",
             "Température": -4,
             "Vent": null
         },
         "aprèsmidi": {
-            "Temps": " Éclaircies",
+            "Temps": "Éclaircies",
             "Température": 8,
             "Vent": null
         },
         "soir": {
-            "Temps": " Soleil",
+            "Temps": "Soleil",
             "Température": -8,
             "Vent": null
         }
@@ -20,17 +20,17 @@
     "demain": {
         "jour": "Mercredi 28 Août",
         "matin": {
-            "Temps": " Nuages",
+            "Temps": "Nuages",
             "Température": -4,
             "Vent": null
         },
         "aprèsmidi": {
-            "Temps": " Éclaircies",
+            "Temps": "Éclaircies",
             "Température": 8,
             "Vent": null
         },
         "soir": {
-            "Temps": " Soleil",
+            "Temps": "Soleil",
             "Température": -8,
             "Vent": null
         }
@@ -38,17 +38,17 @@
     "aprèdemain": {
         "jour": "Jeudi 29 Août",
         "matin": {
-            "Temps": " Averse",
+            "Temps": "Averse",
             "Température": 6,
             "Vent": null
         },
         "aprèsmidi": {
-            "Temps": " Averse",
+            "Temps": "Averse",
             "Température": 8,
             "Vent": null
         },
         "soir": {
-            "Temps": " Averse",
+            "Temps": "Averse",
             "Température": 8,
             "Vent": null
         }
@@ -56,17 +56,17 @@
     "aprèsaprèsdemain": {
         "jour": "Vendredi 30 Août",
         "matin": {
-            "Temps": " Averse",
+            "Temps": "Averse",
             "Température": 58,
             "Vent": null
         },
         "aprèsmidi": {
-            "Temps": " Pluie",
+            "Temps": "Pluie",
             "Température": 2255,
             "Vent": 22544
         },
         "soir": {
-            "Temps": " Pluie",
+            "Temps": "Pluie",
             "Température": 22,
             "Vent": null
         }
