@@ -1,5 +1,5 @@
 {
-    "jour": "28",
+    "jour": "29",
     "Horoscope": {
         "Aujourdhui": {
             "Bélier": " Vous prendrez une douche avec Oussama Ammar. Il vous parlera de crypto-monnaies pendant que vous lui frottez le dos.",
@@ -19,7 +19,7 @@
         "Demain": {
             "Bélier": " Vous prendrez une douche avec Oussama Ammar. Il vous parlera de crypto-monnaies pendant que vous lui frottez le dos.",
             "Taureau": " Crise de tachycardie cette semaine en raison de votre consommation excessive de « Scoubifizz » de Lutti (qui contiennent 82% d’amphétamines).",
-            "Gémeaux": " Ça à Changé !",
+            "Gémeaux": " Vous mettrez des socquettes de couleurs différentes pour affirmer votre personnalité ambivalente de Gémeaux. Vous vous ferez des ennemis.",
             "Cancer": " Vous regarderez 600 vidéos tiktok au lieu de prendre des antidépresseurs. Attention.",
             "Lion": " Il y aura un vote près de chez vous pour élire « le plus con du quartier ». Tâchez de ne pas être élu(e) cette fois-ci.",
             "Vierge": " Si c’est la semaine de votre anniversaire, vous recevrez un Premier ministre en kit à monter vous-même.",
@@ -31,21 +31,21 @@
             "Verseau": " Vous essaierez de vous convaincre de regarder les jeux paralympiques pour avoir bonne conscience. Sans succès.",
             "Poissons": " Vous passerez 70% de votre temps éveillé à râler et souffler d’exaspération (principalement par le nez). Allez au diable."
         },
-        "date_dernier": "2024-08-27"
+        "date-dernier": "2024-08-27"
     },
     "Ephemeride": {
         "Aujourdhui": {
-            "Date": "28 Août 2024",
-            "Saint": "Augustin",
-            "lever": "07:29",
-            "coucher": "21:06",
-            "lune": "dernier quartier"
-        },
-        "Demain": {
             "Date": "29 Août 2024",
             "Saint": "Sabine",
             "lever": "07:30",
             "coucher": "21:04",
+            "lune": "dernier croissant"
+        },
+        "Demain": {
+            "Date": "30 Août 2024",
+            "Saint": "Fiacre",
+            "lever": "07:31",
+            "coucher": "21:02",
             "lune": "dernier croissant"
         }
     }
