@@ -151,15 +151,15 @@ function Traitement(previ){
             let previprécise = previ.aprèsdemain;
             dates[1].innerHTML = '<p><-- '+previprécise.jour+' --></p>'
             if (quands[i].slice(2)=== "mat"){modifierVisuel(previprécise.matin, minidiv[i], AEcrire[i])}
-            else if (quands[i].slice(2)=== "apm"){modifierVisuel(previprécise.matin, minidiv[i], AEcrire[i])}
-            else if (quands[i].slice(2)=== "soi"){modifierVisuel(previprécise.matin, minidiv[i], AEcrire[i])}
+            else if (quands[i].slice(2)=== "apm"){modifierVisuel(previprécise.aprèsmidi, minidiv[i], AEcrire[i])}
+            else if (quands[i].slice(2)=== "soi"){modifierVisuel(previprécise.soir, minidiv[i], AEcrire[i])}
         }
         else if (i>=6){
             let previprécise = previ.aprèsaprèsdemain;
             dates[2].innerHTML = '<p><-- '+previprécise.jour+' --></p>'
             if (quands[i].slice(2)=== "mat"){modifierVisuel(previprécise.matin, minidiv[i], AEcrire[i])}
-            else if (quands[i].slice(2)=== "apm"){modifierVisuel(previprécise.matin, minidiv[i], AEcrire[i])}
-            else if (quands[i].slice(2)=== "soi"){modifierVisuel(previprécise.matin, minidiv[i], AEcrire[i])}
+            else if (quands[i].slice(2)=== "apm"){modifierVisuel(previprécise.aprèsmidi, minidiv[i], AEcrire[i])}
+            else if (quands[i].slice(2)=== "soi"){modifierVisuel(previprécise.soir, minidiv[i], AEcrire[i])}
         }
     };
 }
