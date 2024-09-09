@@ -86,3 +86,36 @@ nav ul{
 }
 /* Bouttons */
 .button{box-sizing: content-box;font-size: 13px;}
+.button {
+    display: grid;
+    font-family: "Pixelated MS Sans Serif", Arial;
+    -webkit-font-smoothing: antialiased;
+    font-size: 11px;
+    box-sizing: border-box;
+    border: 1px solid #003c74;
+    background: linear-gradient(180deg, #fff, #ecebe5 86%, #d8d0c4);
+    box-shadow: none;
+    border-radius: 3px;
+    min-width: 75px;
+    min-height: 23px;
+    padding: 0 12px;
+    appearance: auto;
+    margin: 0em;
+    padding-block: 1px;
+    padding-inline: 6px;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    cursor: default;
+    &:hover {
+        box-shadow: inset -1px 1px #fff0cf, inset 1px 2px #fdd889, inset -2px 2px #fbc761, inset 2px -2px #e5a01a;
+    }
+}
