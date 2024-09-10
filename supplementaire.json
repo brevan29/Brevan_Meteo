@@ -1,5 +1,5 @@
 {
-    "jour": 9,
+    "jour": 10,
     "Horoscope": {
         "Aujourdhui": {
             "Bélier": " Vous mettrez votre plus beau pull pour la rentrée, mais vous le tacherez à la cantine (avec des « bolo balls »).",
@@ -17,35 +17,35 @@
             "Poissons": " Votre cousin vous fera des notes vocales de 8 à 12 minutes pour vous dire à quel point vous l’avez déçu (et que vous lui devez 8,50 € du kebab de la dernière fois)."
         },
         "Demain": {
-            "Bélier": " Vous mettrez votre plus beau pull pour la rentrée, mais vous le tacherez à la cantine (avec des « bolo balls »).",
-            "Taureau": " En pleine perte de repères, vous déciderez de rejoindre le nouveau parti d’Éric Ciotti. Allez consulter.",
-            "Gémeaux": " Un ami vous enverra un message : « Une bonne comédie à conseiller en streaming ? » mais vous répondra « bof » ou « déjà vu ! » à chacune de vos propositions, sans vous dire merci.",
-            "Cancer": " Vous essaierez de vous envoyer vous-même dans un colis Mondial Relay. Attention.",
-            "Lion": " Si vous travaillez dans l’éducation nationale, vous vous mettrez en arrêt-maladie deux jours après la rentrée. Sinon R.A.S.",
-            "Vierge": " Si c’est la semaine de votre anniversaire, on vous emmènera à un concert de jazz où le batteur fera un solo de 52 minutes qui ne plaira qu’aux auditeurs de FIP. Vous irez pleurer dans les toilettes.",
-            "Balance": " Vous devrez vous réconcilier avec Sophie Davant. Elle attend vos excuses.",
-            "Scorpion": " On vous surnommera « Croûte » pendant des années à cause de ce qui va vous arriver cette semaine.",
-            "Furet": " Évènement incroyable : vous verrez un policier municipal se montrer utile (cela arrive une fois tous les 25 ans en moyenne).",
-            "Sagittaire": " Entraînez-vous à prononcer « Je cherche ces chiots chez Sancho ». Votre vie en dépendra dans la nuit de jeudi à vendredi.",
-            "Capricorne": " Vous serez alpagué(e) toutes les 20 minutes par des recruteurs de donateurs qui portent des gilets fluo et qui voudront vous parler du tiers-monde. Restez calme.",
-            "Verseau": " N’oubliez pas que vous avez rendez-vous chez le Dr Schumann mercredi à 17h30. Lavez-vous bien partout partout.",
-            "Poissons": " Votre cousin vous fera des notes vocales de 8 à 12 minutes pour vous dire à quel point vous l’avez déçu (et que vous lui devez 8,50 € du kebab de la dernière fois)."
+            "Bélier": " Michel Barnier vous appellera pour vous raconter des histoires salaces sur Georges Pompidou. Il les racontera deux fois de suite parce qu’il radote.",
+            "Taureau": " Vous croiserez les bras 5h par jour pour vous donner de l’importance. Redescendez un peu.&nbsp;",
+            "Gémeaux": " Chaque fois que vous vous attablerez quelque part, la table sera un peu collante et personne ne voudra la nettoyer.",
+            "Cancer": " Vous mettrez trop de trucs dans vos poches et elles seront toutes déformées.",
+            "Lion": " Un boomer vous reprochera d’être toujours sur votre téléphone, alors que lui, à votre âge, avait déjà 4 appartements. Restez calme.",
+            "Vierge": " Vous passerez la semaine à faire des blagues sur Michèle Bernier/ Michel Barnier. On vous retrouvera assassiné dans une impasse. ",
+            "Balance": " Parce qu’ils seront en promotion, vous achèterez 5 gels douche senteur « choux-fleurs bouillis ».&nbsp;",
+            "Scorpion": " les astres feront en sorte que vous ayez une sale tête au réveil. Encore plus que d’habitude.",
+            "Furet": " Vous formerez un duo électro-pop avec Gabriel Attal, que vous nommerez : « Un attal, des attaux ».",
+            "Sagittaire": " Vous féliciterez Emmanuel Macron pour son choix d’un Premier ministre « raisonnable » qui ne va pas « plonger la France dans le chaos ». Vous serez la honte de votre quartier.",
+            "Capricorne": " Vous adopterez du jour au lendemain les tics de langage de Cyril Hanouna (en appelant tout le monde « Mes chéris » par exemple). Allez consulter en urgence.",
+            "Verseau": " Vous répondrez à une annonce de casting pour devenir le nouveau chat de Marine Le Pen. Attention.&nbsp;",
+            "Poissons": " Vous serez déposé(e) aux encombrants et emporté(e) par les services municipaux dans leur repaire (personne ne sait ce qu’ils font de tous ces trucs)."
         },
-        "date-dernier": "2024-09-03"
+        "date-dernier": "2024-09-10"
     },
     "Ephemeride": {
         "Aujourdhui": {
-            "Date": "09 Septembre 2024",
-            "Saint": "Alain",
+            "Date": "10 Septembre 2024",
+            "Saint": "Inès",
             "lever": "07:46",
             "coucher": "20:40",
             "lune": "1er quartier"
         },
         "Demain": {
-            "Date": "10 Septembre 2024",
-            "Saint": "Inès",
-            "lever": "07:46",
-            "coucher": "20:40",
+            "Date": "11 Septembre 2024",
+            "Saint": "Adelphe",
+            "lever": "07:48",
+            "coucher": "20:38",
             "lune": "1er quartier"
         }
     }
