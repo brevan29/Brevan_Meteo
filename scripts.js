@@ -107,8 +107,8 @@ function modifierVisuel(previ, img, Txt, AEcrire='Rien', minimage="Rien"){
         minimage.src = './Images/'+previ.Temps+'.png'
     }
     if (Number.isInteger(previ.Vent)){
-        Txt[0].innerHTML='<p>'+previ.Temps+'<br>'+previ.Température.toString()+'°C<br>'+previ.Vent.toString()+'km/h</p>'; 
-        AEcrire[0].innerHTML = '<p>'+previ.Temps+'<br>'+previ.Température.toString()+'°C<br>'+previ.Vent.toString()+'km/h</p>'          
+        Txt.innerHTML='<p>'+previ.Temps+'<br>'+previ.Température.toString()+'°C<br>'+previ.Vent.toString()+'km/h</p>'; 
+        AEcrire.innerHTML = '<p>'+previ.Temps+'<br>'+previ.Température.toString()+'°C<br>'+previ.Vent.toString()+'km/h</p>'          
         if (AEcrire!="Rien"){
             AEcrire.innerHTML = '<p>'+previ.Temps+'<br>'+previ.Température.toString()+'°C<br>'+previ.Vent.toString()+'km/h</p>'
         }
