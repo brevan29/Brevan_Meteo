@@ -1,20 +1,20 @@
 {
-    "jour": 1,
+    "jour": 4,
     "Horoscope": {
         "Aujourdhui": {
-            "Bélier": " Michel Barnier vous appellera pour vous raconter des histoires salaces sur Georges Pompidou. Il les racontera deux fois de suite parce qu’il radote.",
-            "Taureau": " Vous croiserez les bras 5h par jour pour vous donner de l’importance. Redescendez un peu.&nbsp;",
-            "Gémeaux": " Chaque fois que vous vous attablerez quelque part, la table sera un peu collante et personne ne voudra la nettoyer.",
-            "Cancer": " Vous mettrez trop de trucs dans vos poches et elles seront toutes déformées.",
-            "Lion": " Un boomer vous reprochera d’être toujours sur votre téléphone, alors que lui, à votre âge, avait déjà 4 appartements. Restez calme.",
-            "Vierge": " Vous passerez la semaine à faire des blagues sur Michèle Bernier/ Michel Barnier. On vous retrouvera assassiné dans une impasse. ",
-            "Balance": " Parce qu’ils seront en promotion, vous achèterez 5 gels douche senteur « choux-fleurs bouillis ».&nbsp;",
-            "Scorpion": " les astres feront en sorte que vous ayez une sale tête au réveil. Encore plus que d’habitude.",
-            "Furet": " Vous formerez un duo électro-pop avec Gabriel Attal, que vous nommerez : « Un attal, des attaux ».",
-            "Sagittaire": " Vous féliciterez Emmanuel Macron pour son choix d’un Premier ministre « raisonnable » qui ne va pas « plonger la France dans le chaos ». Vous serez la honte de votre quartier.",
-            "Capricorne": " Vous adopterez du jour au lendemain les tics de langage de Cyril Hanouna (en appelant tout le monde « Mes chéris » par exemple). Allez consulter en urgence.",
-            "Verseau": " Vous répondrez à une annonce de casting pour devenir le nouveau chat de Marine Le Pen. Attention.&nbsp;",
-            "Poissons": " Vous serez déposé(e) aux encombrants et emporté(e) par les services municipaux dans leur repaire (personne ne sait ce qu’ils font de tous ces trucs)."
+            "Bélier": " Vous irez vous faire cuire un œuf.",
+            "Taureau": " Bernard-Henri Lévy portera plainte contre vous parce que vous avez mis une chemise blanche il n’y a pas si longtemps, et qu’il a déposé ce style.",
+            "Gémeaux": " Chaque fois que vous irez dans un restaurant, des gens chanteront à quelqu’un d’autre « Joyeux aaaaa-niiii-veeeer-sssaaiiiire » et vous vous rendrez compte qu’ils sont plus heureux que vous.",
+            "Cancer": " Si vous avez un nom de famille connu (comme Victor Belmondo ou Thalia Besson), on vous proposera de jouer dans un film sans passer de casting. Sinon, vous mangerez juste une boîte de haricots au beurre.",
+            "Lion": " Vous voudrez « jouer les durs » en mettant un bandana rouge autour du cou. Notre conseil : arrêtez ça tout de suite.",
+            "Vierge": " Des petits couples vous arrêteront environ 74 fois dans la semaine pour vous demander « Vous pouvez prendre une photo de nous ? ». Vous les haïrez.",
+            "Balance": " Si c’est la semaine de votre anniversaire, vous recevrez une peluche Pascal Praud qui dit « Islam » quand on lui appuie sur le ventre.",
+            "Scorpion": " Vous n’aurez toujours pas l’occasion d’utiliser votre playlist « Sexy Soul in bed ». Remettez-vous en question.",
+            "Furet": " Vous arriverez à paraître sympa et intéressant juste en posant des questions basiques et des « Et toi alors ? ». Bravo !",
+            "Sagittaire": " Seul(e) survivant(e) d’un naufrage, vous serez recueilli(e) sur une île par un Comte russe raffiné qui organisera avec vous une chasse à l’homme. Oui c’est le pitch des « Chasses du Comte Zaroff » et alors ?",
+            "Capricorne": " Vous utiliserez le mot « zakouskis » comme dans la phrase « J’ai préparé des petits zakouskis ». Attention.",
+            "Verseau": " Vous vous rendrez compte que Léon Marchand a vraiment le nom d’un PNJ sans importance dans un jeu vidéo. Cela vous rendra chafouin.",
+            "Poissons": " Vous ferez semblant de lire « Critique de la raison pure » de Kant en public pour paraître cultivé(e) et séduisant(e). Cela fonctionnera mais uniquement avec des profs de philos décrépis."
         },
         "Demain": {
             "Bélier": " Vous irez vous faire cuire un œuf.",
@@ -35,17 +35,17 @@
     },
     "Ephemeride": {
         "Aujourdhui": {
-            "Date": "01 Octobre 2024",
-            "Saint": "Thérèse de l'Enfant Jésus",
-            "lever": "08:15",
-            "coucher": "19:55",
+            "Date": "04 Octobre 2024",
+            "Saint": "François d'Assise",
+            "lever": "08:17",
+            "coucher": "19:53",
             "lune": "Nouvelle lune"
         },
         "Demain": {
-            "Date": "02 Octobre 2024",
-            "Saint": "Léger",
-            "lever": "08:17",
-            "coucher": "19:53",
+            "Date": "05 Octobre 2024",
+            "Saint": "Fleur",
+            "lever": "08:21",
+            "coucher": "19:47",
             "lune": "Nouvelle lune"
         }
     }
