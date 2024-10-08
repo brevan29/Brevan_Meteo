@@ -1,5 +1,5 @@
 {
-    "jour": 7,
+    "jour": 8,
     "Horoscope": {
         "Aujourdhui": {
             "Bélier": " Vous irez vous faire cuire un œuf.",
@@ -35,18 +35,18 @@
     },
     "Ephemeride": {
         "Aujourdhui": {
-            "Date": "07 Octobre 2024",
-            "Saint": "Serge",
-            "lever": "08:21",
-            "coucher": "19:47",
-            "lune": "Nouvelle lune"
-        },
-        "Demain": {
             "Date": "08 Octobre 2024",
             "Saint": "Pélagie",
             "lever": "08:25",
             "coucher": "19:41",
             "lune": "1er croissant"
+        },
+        "Demain": {
+            "Date": "09 Octobre 2024",
+            "Saint": "Denis",
+            "lever": "08:27",
+            "coucher": "19:39",
+            "lune": "1er quartier"
         }
     }
 }
