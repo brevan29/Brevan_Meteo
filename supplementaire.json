@@ -1,20 +1,20 @@
 {
-    "jour": 15,
+    "jour": 16,
     "Horoscope": {
         "Aujourdhui": {
-            "Bélier": " Vous irez vous faire cuire un œuf.",
-            "Taureau": " Bernard-Henri Lévy portera plainte contre vous parce que vous avez mis une chemise blanche il n’y a pas si longtemps, et qu’il a déposé ce style.",
-            "Gémeaux": " Chaque fois que vous irez dans un restaurant, des gens chanteront à quelqu’un d’autre « Joyeux aaaaa-niiii-veeeer-sssaaiiiire » et vous vous rendrez compte qu’ils sont plus heureux que vous.",
-            "Cancer": " Si vous avez un nom de famille connu (comme Victor Belmondo ou Thalia Besson), on vous proposera de jouer dans un film sans passer de casting. Sinon, vous mangerez juste une boîte de haricots au beurre.",
-            "Lion": " Vous voudrez « jouer les durs » en mettant un bandana rouge autour du cou. Notre conseil : arrêtez ça tout de suite.",
-            "Vierge": " Des petits couples vous arrêteront environ 74 fois dans la semaine pour vous demander « Vous pouvez prendre une photo de nous ? ». Vous les haïrez.",
-            "Balance": " Si c’est la semaine de votre anniversaire, vous recevrez une peluche Pascal Praud qui dit « Islam » quand on lui appuie sur le ventre.",
-            "Scorpion": " Vous n’aurez toujours pas l’occasion d’utiliser votre playlist « Sexy Soul in bed ». Remettez-vous en question.",
-            "Furet": " Vous arriverez à paraître sympa et intéressant juste en posant des questions basiques et des « Et toi alors ? ». Bravo !",
-            "Sagittaire": " Seul(e) survivant(e) d’un naufrage, vous serez recueilli(e) sur une île par un Comte russe raffiné qui organisera avec vous une chasse à l’homme. Oui c’est le pitch des « Chasses du Comte Zaroff » et alors ?",
-            "Capricorne": " Vous utiliserez le mot « zakouskis » comme dans la phrase « J’ai préparé des petits zakouskis ». Attention.",
-            "Verseau": " Vous vous rendrez compte que Léon Marchand a vraiment le nom d’un PNJ sans importance dans un jeu vidéo. Cela vous rendra chafouin.",
-            "Poissons": " Vous ferez semblant de lire « Critique de la raison pure » de Kant en public pour paraître cultivé(e) et séduisant(e). Cela fonctionnera mais uniquement avec des profs de philos décrépis."
+            "Bélier": " Vous serez rétrogradé pour avoir pris la dernière capsule de café du bureau. Les prud’hommes ne pourront rien pour vous.",
+            "Taureau": " Comme vous n’avez aucune personnalité, vous vous mettrez à adorer les « smash burgers » alors que c’est tout petit et huileux.",
+            "Gémeaux": " Des enfants sonneront chez vous et s’enfuiront en courant. Ils le feront 15 fois par jour parce que ce sont des harceleurs (comme tous les enfants).",
+            "Cancer": " Vous vous mettrez en guerre contre les gens qui disent « Maman » au lieu de « ma mère » quand ils racontent quelque chose. Tous les astres vous soutiendront.",
+            "Lion": " Vous écouterez un podcast de témoignages où une femme racontera pendant 55 minutes la fois où elle a imprimé des documents en recto seulement alors qu’en fait on lui avait demandé en recto-verso.",
+            "Vierge": " Vous volerez des échantillons de parfum chez Séphora. Prévoyez une course-poursuite avec des vendeuses aux cils disproportionnés.",
+            "Balance": " Si c’est la semaine de votre anniversaire, vous recevrez une carte bourrée de fautes d’orthographe et le fameux « Bonne annif !! ». Tenez le coup.",
+            "Scorpion": " Vous devrez écouter Autoroute FM de 6h à 21h et prévenir Jérôme au 07 89 46 51 82 dès qu’il y a des bouchons sur l’A6, l’A7 ou l’A86. Il compte sur vous !",
+            "Furet": " Vous gagnerez dans une tombola le cahier de coloriages « Les plus beaux portraits d’Emmanuel Macron ». Des fonctionnaires assermentés vérifieront que vous ne coloriez pas ses dents en noir.",
+            "Sagittaire": " Vous rejoindrez le clan ninja du Scorpion Noir, qui vous demandera malheureusement d’éliminer Jean-Luc Reichmann, à l’aide d’un nunchaku.",
+            "Capricorne": " Vous irez dans un bar et commanderez un jus de tomates par provocation. Les gens seront furieux.",
+            "Verseau": " Somnambulisme à prévoir. Vous ferez vos besoins dans le salon.",
+            "Poissons": " Vous devrez faire le ménage chez Anne Genetet (la ministre de l’Éducation) en prenant l’accent philippin pour ne pas la dépayser. Vous serez payé(e) avec une tape dans le dos et un bol de riz. Faites de votre mieux."
         },
         "Demain": {
             "Bélier": " Vous serez rétrogradé pour avoir pris la dernière capsule de café du bureau. Les prud’hommes ne pourront rien pour vous.",
@@ -35,17 +35,17 @@
     },
     "Ephemeride": {
         "Aujourdhui": {
-            "Date": "15 Octobre 2024",
-            "Saint": "Thérèse d'Avila",
-            "lever": "08:35",
-            "coucher": "19:27",
-            "lune": "pleine lune"
-        },
-        "Demain": {
             "Date": "16 Octobre 2024",
             "Saint": "Edwige",
             "lever": "08:37",
             "coucher": "19:25",
+            "lune": "pleine lune"
+        },
+        "Demain": {
+            "Date": "17 Octobre 2024",
+            "Saint": "Baudoin",
+            "lever": "08:38",
+            "coucher": "19:23",
             "lune": "pleine lune"
         }
     }
