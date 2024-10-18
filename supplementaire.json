@@ -1,5 +1,5 @@
 {
-    "jour": 16,
+    "jour": 18,
     "Horoscope": {
         "Aujourdhui": {
             "Bélier": " Vous serez rétrogradé pour avoir pris la dernière capsule de café du bureau. Les prud’hommes ne pourront rien pour vous.",
@@ -35,17 +35,17 @@
     },
     "Ephemeride": {
         "Aujourdhui": {
-            "Date": "16 Octobre 2024",
-            "Saint": "Edwige",
-            "lever": "08:37",
-            "coucher": "19:25",
+            "Date": "18 Octobre 2024",
+            "Saint": "Luc",
+            "lever": "08:38",
+            "coucher": "19:23",
             "lune": "pleine lune"
         },
         "Demain": {
-            "Date": "17 Octobre 2024",
-            "Saint": "Baudoin",
-            "lever": "08:38",
-            "coucher": "19:23",
+            "Date": "19 Octobre 2024",
+            "Saint": "René",
+            "lever": "08:41",
+            "coucher": "19:19",
             "lune": "pleine lune"
         }
     }
