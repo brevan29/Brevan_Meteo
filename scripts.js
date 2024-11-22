@@ -23,7 +23,6 @@ function changervisibiliteTenplus(elm){
             document.getElementById('Horoscope').style.padding = '20px 0px 0px 20px'
             saisonAffichee.style.visibility = 'visible'
             document.getElementById('Bouttons').style.visibility = 'visible'
-            let truc = 'truc'
         }
     if (Actif2==='Horoscope' && elm!='Horoscope'){
         document.getElementById('Horoscope').style.padding = '0px'
@@ -79,7 +78,7 @@ if (window.innerWidth<=500){
     document.getElementById('France').style.overflow="hidden";
 }
 
-let saisonAffichee = document.getElementById('Eté')
+let saisonAffichee = document.getElementById('Automne')
 function ChangerDeSaison(elm){
     let saison = document.getElementById(elm)
     saisonAffichee.style.visibility='hidden';
