@@ -1,5 +1,5 @@
 {
-    "jour": 22,
+    "jour": 25,
     "Horoscope": {
         "Aujourdhui": {
             "Bélier": " Vous serez rétrogradé pour avoir pris la dernière capsule de café du bureau. Les prud’hommes ne pourront rien pour vous.",
@@ -17,36 +17,36 @@
             "Poissons": " Vous devrez faire le ménage chez Anne Genetet (la ministre de l’Éducation) en prenant l’accent philippin pour ne pas la dépayser. Vous serez payé(e) avec une tape dans le dos et un bol de riz. Faites de votre mieux."
         },
         "Demain": {
-            "Bélier": " Vous serez rétrogradé pour avoir pris la dernière capsule de café du bureau. Les prud’hommes ne pourront rien pour vous.",
-            "Taureau": " Comme vous n’avez aucune personnalité, vous vous mettrez à adorer les « smash burgers » alors que c’est tout petit et huileux.",
-            "Gémeaux": " Des enfants sonneront chez vous et s’enfuiront en courant. Ils le feront 15 fois par jour parce que ce sont des harceleurs (comme tous les enfants).",
-            "Cancer": " Vous vous mettrez en guerre contre les gens qui disent « Maman » au lieu de « ma mère » quand ils racontent quelque chose. Tous les astres vous soutiendront.",
-            "Lion": " Vous écouterez un podcast de témoignages où une femme racontera pendant 55 minutes la fois où elle a imprimé des documents en recto seulement alors qu’en fait on lui avait demandé en recto-verso.",
-            "Vierge": " Vous volerez des échantillons de parfum chez Séphora. Prévoyez une course-poursuite avec des vendeuses aux cils disproportionnés.",
-            "Balance": " Si c’est la semaine de votre anniversaire, vous recevrez une carte bourrée de fautes d’orthographe et le fameux « Bonne annif !! ». Tenez le coup.",
-            "Scorpion": " Vous devrez écouter Autoroute FM de 6h à 21h et prévenir Jérôme au 07 89 46 51 82 dès qu’il y a des bouchons sur l’A6, l’A7 ou l’A86. Il compte sur vous !",
-            "Furet": " Vous gagnerez dans une tombola le cahier de coloriages « Les plus beaux portraits d’Emmanuel Macron ». Des fonctionnaires assermentés vérifieront que vous ne coloriez pas ses dents en noir.",
-            "Sagittaire": " Vous rejoindrez le clan ninja du Scorpion Noir, qui vous demandera malheureusement d’éliminer Jean-Luc Reichmann, à l’aide d’un nunchaku.",
-            "Capricorne": " Vous irez dans un bar et commanderez un jus de tomates par provocation. Les gens seront furieux.",
-            "Verseau": " Somnambulisme à prévoir. Vous ferez vos besoins dans le salon.",
-            "Poissons": " Vous devrez faire le ménage chez Anne Genetet (la ministre de l’Éducation) en prenant l’accent philippin pour ne pas la dépayser. Vous serez payé(e) avec une tape dans le dos et un bol de riz. Faites de votre mieux."
+            "Bélier": " En raison d’une faute d’inattention, un chirurgien vous greffera Bruno Retailleau, qui deviendra votre frère siamois.",
+            "Taureau": " Vous aurez une semaine pour trouver l’amour. Sinon Mercure vous mettra des bâtons dans les roues jusqu’à la fin de votre vie.",
+            "Gémeaux": " Vous tremperez un délicieux cookie dans du café, mais le biscuit se cassera et le bout imbibé de café se désagrégera immédiatement. Vous hurlerez comme une bête féroce, mais personne ne vous viendra en aide.",
+            "Cancer": " Vous participerez à une course illégale de tracteurs customisés, contre des agriculteurs vindicatifs. Si vous gagnez, vous remporterez une chèvre du nom de Christiane. Sinon, vous devrez travailler à la ferme pendant un an et un jour.",
+            "Lion": " Votre QI très bas vous poussera à mettre votre main au feu, « pour voir ce que ça fait ».",
+            "Vierge": " Vous ferez des exercices d’élongation du cou, pour qu’il ait la même longueur que celui de Pierre Niney. Attention.",
+            "Balance": " Vous demanderez « un ciseau » mais un con vous reprendra immédiatement « On dit DES ciseaux ». Vous vous en voudrez terriblement.",
+            "Scorpion": " Échappant à vos poursuivants sur les docks, vous vous cacherez dans une grande caisse de bois à destination de l’Australie.",
+            "Furet": " Vous écrirez à l’ARCOM pour vous plaindre de l’attitude insolente de Benjamin Castaldi dans les pubs Comme J’aime. Vous obtiendrez gain de cause et il sera castré (c’est la procédure normale).",
+            "Sagittaire": " Vous ferez un test ADN, et vous découvrirez que vous êtes à 41% issu de graisses animales et d’huile de colza.",
+            "Capricorne": " Vous mangerez un Ferrero Rocher goût oignon (ils sont à -50%).",
+            "Verseau": " Pour vous détendre, vous regarderez des vieilles archives de Marine Le Pen où elle s&rsquo;insurgeait contre des politiques qui détournent « l’argent des Français ». Ce ne sera pas très efficace.",
+            "Poissons": " Vous vous rendrez compte qu’à part Laurent Gerra et Gaspard Proust, il n’y a pas d’humoriste de droite. Vous déciderez alors de prendre ce créneau en lançant votre spectacle « Marre des assistés !!! ». Ce sera évidemment une catastrophe."
         },
-        "date-dernier": "2024-11-13"
+        "date-dernier": "2024-11-25"
     },
     "Ephemeride": {
         "Aujourdhui": {
-            "Date": "22 Novembre 2024",
-            "Saint": "Cécile",
-            "lever": "08:33",
-            "coucher": "17:31",
-            "lune": "gibbeuse décroissante"
+            "Date": "25 Novembre 2024",
+            "Saint": "Catherine",
+            "lever": "08:38",
+            "coucher": "17:28",
+            "lune": "dernier croissant"
         },
         "Demain": {
-            "Date": "23 Novembre 2024",
-            "Saint": "Clément",
-            "lever": "08:34",
-            "coucher": "17:30",
-            "lune": "dernier quartier"
+            "Date": "26 Novembre 2024",
+            "Saint": "Delphine",
+            "lever": "08:38",
+            "coucher": "17:28",
+            "lune": "dernier croissant"
         }
     }
 }
