@@ -19,7 +19,7 @@
         }
     },
     "demain": {
-        "jour": "Mardi 27 Novembre",
+        "jour": "Mercredi 27 Novembre",
         "matin": {
             "Temps": "Nuages",
             "Température": 13,
@@ -37,7 +37,7 @@
         }
     },
     "aprèsdemain": {
-        "jour": "Mercredi 28 Novembre",
+        "jour": "Jeudi 28 Novembre",
         "matin": {
             "Temps": "Pluie",
             "Température": 12,
@@ -55,7 +55,7 @@
         }
     },
     "aprèsaprèsdemain": {
-        "jour": "Jeudi 29 Novembre",
+        "jour": "Vendredi 29 Novembre",
         "matin": {
             "Temps": "Éclaircies",
             "Température": 11,
