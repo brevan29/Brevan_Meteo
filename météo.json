@@ -1,23 +1,6 @@
 {
+    "date": 6,
     "aujourdhui": {
-        "jour": "Mardi 04 Novembre",
-        "matin": {
-            "Temps": "Nuages",
-            "Température": 14,
-            "Vent": null
-        },
-        "aprèsmidi": {
-            "Temps": "Pluie",
-            "Température": 16,
-            "Vent": 45
-        },
-        "soir": {
-            "Temps": "Pluie",
-            "Température": 15,
-            "Vent": 45
-        }
-    },
-    "demain": {
         "jour": "Mercredi 05 Novembre",
         "matin": {
             "Temps": "Nuages",
@@ -27,48 +10,66 @@
         "aprèsmidi": {
             "Temps": "Nuages",
             "Température": 17,
-            "Vent": null 
+            "Vent": null
         },
         "soir": {
             "Temps": "Nuages",
             "Température": 15,
-            "Vent": null 
+            "Vent": null
+        }
+    },
+    "demain": {
+        "jour": "Mercredi 07 Janvier",
+        "matin": {
+            "Temps": "Pluie",
+            "Température": 7,
+            "Vent": null
+        },
+        "aprèsmidi": {
+            "Temps": "Pluie",
+            "Température": 9,
+            "Vent": null
+        },
+        "soir": {
+            "Temps": "Pluie",
+            "Température": 9,
+            "Vent": null
         }
     },
     "aprèsdemain": {
-        "jour": "Jeudi 06 Novembre",
+        "jour": "Jeudi 08 Janvier",
         "matin": {
-            "Temps": "Éclaircies",
-            "Température": 12,
-            "Vent": null
+            "Temps": "Pluie",
+            "Température": 11,
+            "Vent": 50
         },
         "aprèsmidi": {
-            "Temps": "Averse",
-            "Température": 15,
-            "Vent": null
+            "Temps": "Pluie",
+            "Température": 12,
+            "Vent": 80
         },
         "soir": {
-            "Temps": "Éclaircies",
-            "Température": 13,
-            "Vent": null
+            "Temps": "Pluie",
+            "Température": 11,
+            "Vent": 90
         }
     },
     "aprèsaprèsdemain": {
-        "jour": "Lundi 06 Octobre",
+        "jour": "Vendredi 09 Janvier",
         "matin": {
-            "Temps": "Éclaircies",
-            "Température": 10,
-            "Vent": null
+            "Temps": "Averse",
+            "Température": 6,
+            "Vent": 60
         },
         "aprèsmidi": {
-            "Temps": "Éclaircies",
-            "Température": 17,
-            "Vent": null
+            "Temps": "Averse",
+            "Température": 8,
+            "Vent": 60
         },
         "soir": {
-            "Temps": "Éclaircies",
-            "Température": 14,
-            "Vent": null
+            "Temps": "Pluie",
+            "Température": 7,
+            "Vent": 55
         }
     }
 }
