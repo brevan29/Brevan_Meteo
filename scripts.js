@@ -78,7 +78,7 @@ if (window.innerWidth<=500){
     document.getElementById('France').style.overflow="hidden";
 }
 
-let saisonAffichee = document.getElementById('Automne')
+let saisonAffichee = document.getElementById('Printemps')
 function ChangerDeSaison(elm){
     let saison = document.getElementById(elm)
     saisonAffichee.style.visibility='hidden';
