@@ -1,52 +1,52 @@
 {
-    "jour": 6,
+    "jour": "18",
     "Horoscope": {
         "Aujourdhui": {
-            "Bélier": " En raison d’une faute d’inattention, un chirurgien vous greffera Bruno Retailleau, qui deviendra votre frère siamois.",
-            "Taureau": " Vous aurez une semaine pour trouver l’amour. Sinon Mercure vous mettra des bâtons dans les roues jusqu’à la fin de votre vie.",
-            "Gémeaux": " Vous tremperez un délicieux cookie dans du café, mais le biscuit se cassera et le bout imbibé de café se désagrégera immédiatement. Vous hurlerez comme une bête féroce, mais personne ne vous viendra en aide.",
-            "Cancer": " Vous participerez à une course illégale de tracteurs customisés, contre des agriculteurs vindicatifs. Si vous gagnez, vous remporterez une chèvre du nom de Christiane. Sinon, vous devrez travailler à la ferme pendant un an et un jour.",
-            "Lion": " Votre QI très bas vous poussera à mettre votre main au feu, « pour voir ce que ça fait ».",
-            "Vierge": " Vous ferez des exercices d’élongation du cou, pour qu’il ait la même longueur que celui de Pierre Niney. Attention.",
-            "Balance": " Vous demanderez « un ciseau » mais un con vous reprendra immédiatement « On dit DES ciseaux ». Vous vous en voudrez terriblement.",
-            "Scorpion": " Échappant à vos poursuivants sur les docks, vous vous cacherez dans une grande caisse de bois à destination de l’Australie.",
-            "Furet": " Vous écrirez à l’ARCOM pour vous plaindre de l’attitude insolente de Benjamin Castaldi dans les pubs Comme J’aime. Vous obtiendrez gain de cause et il sera castré (c’est la procédure normale).",
-            "Sagittaire": " Vous ferez un test ADN, et vous découvrirez que vous êtes à 41% issu de graisses animales et d’huile de colza.",
-            "Capricorne": " Vous mangerez un Ferrero Rocher goût oignon (ils sont à -50%).",
-            "Verseau": " Pour vous détendre, vous regarderez des vieilles archives de Marine Le Pen où elle s&rsquo;insurgeait contre des politiques qui détournent « l’argent des Français ». Ce ne sera pas très efficace.",
-            "Poissons": " Vous vous rendrez compte qu’à part Laurent Gerra et Gaspard Proust, il n’y a pas d’humoriste de droite. Vous déciderez alors de prendre ce créneau en lançant votre spectacle « Marre des assistés !!! ». Ce sera évidemment une catastrophe."
+            "Bélier": " Emmanuel Macron vous demandera de vous taire en précisant : « HEY HEY HEY !! This is a total lack of respect ! ». Vous êtes foutu(e).",
+            "Taureau": " Vous vous mettrez à boire plus d’eau pour pouvoir pleurer plus longtemps. Bien joué !",
+            "Gémeaux": " Si c’est la semaine de votre anniversaire, vos amis oublieront complètement de vous le souhaiter, mais des gens insignifiants y penseront, ce qui est particulièrement énervant.",
+            "Cancer": " Vous serez mordu(e) par un gros rat : votre ami qui ouvre toujours un tricount pendant les vacances. Allez consulter au cas où.",
+            "Lion": " Vous mangerez un bonbon arlequin (les bonbons qui ont le goût d’un AVC acidulé). Vous n’en ressortirez pas indemne.",
+            "Vierge": " Vous serez outré(e) de devoir retourner au boulot alors qu’on est en mai. Tapez du poing sur la table.",
+            "Balance": " Personne ne comprendra vos blagues alors vous devrez les expliquer. Ce sera assez long et les gens diront juste « Ah oui d’accord » avant de changer de sujet.",
+            "Scorpion": " Vous déjeunerez en face de quelqu’un qui mange la bouche ouverte. Vous verrez chaque bouchée se transformer lentement en bouillie. Fuyez.",
+            "Furet": " Vous aurez le commentaire le plus liké sous un article ou une vidéo. Chaque petite victoire compte dans la France de Macron.",
+            "Sagittaire": " Si vous êtes un pauvre type, vous achèterez des lunettes Meta. Sinon, vous mettrez juste des chaussettes « fun ».",
+            "Capricorne": " Vous serez abandonné(e) par vos amis après avoir reparlé des masques et des gestes barrière. On ne peut pas leur en vouloir.",
+            "Verseau": " Vous essaierez de replacer l’expression « Grosjean comme devant » dans la vie de tous les jours. Attention.",
+            "Poissons": " Patrick Bruel s’introduira chez vous pour étaler ses selles un peu partout sur les murs. Il ne pourra pas rester plus longtemps parce qu’il joue en ce moment au théâtre."
         },
         "Demain": {
-            "Bélier": " En raison d’une faute d’inattention, un chirurgien vous greffera Bruno Retailleau, qui deviendra votre frère siamois.",
-            "Taureau": " Vous aurez une semaine pour trouver l’amour. Sinon Mercure vous mettra des bâtons dans les roues jusqu’à la fin de votre vie.",
-            "Gémeaux": " Vous tremperez un délicieux cookie dans du café, mais le biscuit se cassera et le bout imbibé de café se désagrégera immédiatement. Vous hurlerez comme une bête féroce, mais personne ne vous viendra en aide.",
-            "Cancer": " Vous participerez à une course illégale de tracteurs customisés, contre des agriculteurs vindicatifs. Si vous gagnez, vous remporterez une chèvre du nom de Christiane. Sinon, vous devrez travailler à la ferme pendant un an et un jour.",
-            "Lion": " Votre QI très bas vous poussera à mettre votre main au feu, « pour voir ce que ça fait ».",
-            "Vierge": " Vous ferez des exercices d’élongation du cou, pour qu’il ait la même longueur que celui de Pierre Niney. Attention.",
-            "Balance": " Vous demanderez « un ciseau » mais un con vous reprendra immédiatement « On dit DES ciseaux ». Vous vous en voudrez terriblement.",
-            "Scorpion": " Échappant à vos poursuivants sur les docks, vous vous cacherez dans une grande caisse de bois à destination de l’Australie.",
-            "Furet": " Vous écrirez à l’ARCOM pour vous plaindre de l’attitude insolente de Benjamin Castaldi dans les pubs Comme J’aime. Vous obtiendrez gain de cause et il sera castré (c’est la procédure normale).",
-            "Sagittaire": " Vous ferez un test ADN, et vous découvrirez que vous êtes à 41% issu de graisses animales et d’huile de colza.",
-            "Capricorne": " Vous mangerez un Ferrero Rocher goût oignon (ils sont à -50%).",
-            "Verseau": " Pour vous détendre, vous regarderez des vieilles archives de Marine Le Pen où elle s&rsquo;insurgeait contre des politiques qui détournent « l’argent des Français ». Ce ne sera pas très efficace.",
-            "Poissons": " Vous vous rendrez compte qu’à part Laurent Gerra et Gaspard Proust, il n’y a pas d’humoriste de droite. Vous déciderez alors de prendre ce créneau en lançant votre spectacle « Marre des assistés !!! ». Ce sera évidemment une catastrophe."
+            "Bélier": " Emmanuel Macron vous demandera de vous taire en précisant : « HEY HEY HEY !! This is a total lack of respect ! ». Vous êtes foutu(e).",
+            "Taureau": " Vous vous mettrez à boire plus d’eau pour pouvoir pleurer plus longtemps. Bien joué !",
+            "Gémeaux": " Si c’est la semaine de votre anniversaire, vos amis oublieront complètement de vous le souhaiter, mais des gens insignifiants y penseront, ce qui est particulièrement énervant.",
+            "Cancer": " Vous serez mordu(e) par un gros rat : votre ami qui ouvre toujours un tricount pendant les vacances. Allez consulter au cas où.",
+            "Lion": " Vous mangerez un bonbon arlequin (les bonbons qui ont le goût d’un AVC acidulé). Vous n’en ressortirez pas indemne.",
+            "Vierge": " Vous serez outré(e) de devoir retourner au boulot alors qu’on est en mai. Tapez du poing sur la table.",
+            "Balance": " Personne ne comprendra vos blagues alors vous devrez les expliquer. Ce sera assez long et les gens diront juste « Ah oui d’accord » avant de changer de sujet.",
+            "Scorpion": " Vous déjeunerez en face de quelqu’un qui mange la bouche ouverte. Vous verrez chaque bouchée se transformer lentement en bouillie. Fuyez.",
+            "Furet": " Vous aurez le commentaire le plus liké sous un article ou une vidéo. Chaque petite victoire compte dans la France de Macron.",
+            "Sagittaire": " Si vous êtes un pauvre type, vous achèterez des lunettes Meta. Sinon, vous mettrez juste des chaussettes « fun ».",
+            "Capricorne": " Vous serez abandonné(e) par vos amis après avoir reparlé des masques et des gestes barrière. On ne peut pas leur en vouloir.",
+            "Verseau": "  Vous essaierez de replacer l’expression « Grosjean comme devant » dans la vie de tous les jours. Attention.",
+            "Poissons": " Patrick Bruel s’introduira chez vous pour étaler ses selles un peu partout sur les murs. Il ne pourra pas rester plus longtemps parce qu’il joue en ce moment au théâtre."
         },
-        "date-dernier": "2024-11-25"
+        "date_dernier": "2024-11-25"
     },
     "Ephemeride": {
         "Aujourdhui": {
-            "Date": "06 Janvier 2026",
-            "Saint": "Mélaine",
-            "lever": "08:19",
-            "coucher": "19:49",
-            "lune": "gribbeuse croissante"
-        },
-        "Demain": {
-            "Date": "07 Janvier 2026",
-            "Saint": "Raymond",
+            "Date": "18 Mai 2026",
+            "Saint": "Eric",
             "lever": "09:04",
             "coucher": "17:40",
             "lune": "gibbeuse décroissante"
+        },
+        "Demain": {
+            "Date": "19 Mai 2026",
+            "Saint": "Yves",
+            "lever": "06:32",
+            "coucher": "21:52",
+            "lune": "Nouvelle lune"
         }
     }
 }
