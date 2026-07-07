@@ -1,5 +1,5 @@
 {
-    "jour": "02",
+    "jour": "07",
     "Horoscope": {
         "Aujourdhui": {
             "Bélier": " Emmanuel Macron vous demandera de vous taire en précisant : « HEY HEY HEY !! This is a total lack of respect ! ». Vous êtes foutu(e).",
@@ -35,18 +35,18 @@
     },
     "Ephemeride": {
         "Aujourdhui": {
-            "Date": "02 Juin 2026",
-            "Saint": "Blandine",
+            "Date": "07 Juillet 2026",
+            "Saint": "Raoul",
             "lever": "06:19",
             "coucher": "22:09",
             "lune": "pleine lune"
         },
         "Demain": {
-            "Date": "03 Juin 2026",
-            "Saint": "Kévin",
-            "lever": "06:19",
-            "coucher": "22:09",
-            "lune": "pleine lune"
+            "Date": "08 Juillet 2026",
+            "Saint": "Thibault",
+            "lever": "06:25",
+            "coucher": "22:17",
+            "lune": "dernier quartier"
         }
     }
 }
